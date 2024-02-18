@@ -1,0 +1,17 @@
+---
+- name: File Module
+  hosts: all
+
+  tasks:
+  - name: Creating a file
+    file:
+      path: /tmp/newfile.txt
+      state: absent # ye newfile ko delete kar dega 
+      owner: sumit
+      group: sumit
+      mode:  u=rwx,g=rw,o=r
+
+  - name: Creating a Directory
+    file:
+     path: /tmp/myfolder
+     state: directory

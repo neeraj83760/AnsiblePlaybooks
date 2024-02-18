@@ -1,0 +1,12 @@
+---
+- name: Set Password
+  hosts: all
+  
+  tasks:
+  - name: Set passwd
+    user:
+      name: nick
+      # Agar new user hai to hi new password set karo   
+      update_password: always
+      password: "{{'abcd123' | password_hash('sha512')}}"  
+         

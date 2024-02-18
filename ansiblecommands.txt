@@ -1,0 +1,889 @@
+Script started on 2024-02-14 07:24:42+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="96" LINES="30"]
+]0;root@mycentos-instance:/etc/ansible[?2004h[root@mycentos-instance ansible]# histoy[K[Kory | g[Ktail -n 6
+[?2004l  269  lsof -i :80
+  270  ps -p 727
+  271  lsof -i :80
+  272  lsof -i :80
+  273  reboot
+  274  history | tail -n 6
+]0;root@mycentos-instance:/etc/ansible[?2004h[root@mycentos-instance ansible]# cd[K[Kcd ..
+[?2004l]0;root@mycentos-instance:/etc[?2004h[root@mycentos-instance etc]# cd ..
+[?2004l]0;root@mycentos-instance:/[?2004h[root@mycentos-instance /]# his[K[K[Kl[Kcd ~
+[?2004l]0;root@mycentos-instance:~[?2004h[root@mycentos-instance ~]# hi[K[Kcd ~..history | tail -n 6reboot[Khistory | tail -n 6
+[?2004l  273  reboot
+  274  history | tail -n 6
+  275  cd ..
+  276  cd ..
+  277  cd ~
+  278  history | tail -n 6
+]0;root@mycentos-instance:~[?2004h[root@mycentos-instance ~]# history | tail -n 6[K10
+[?2004l  270  ps -p 727
+  271  lsof -i :80
+  272  lsof -i :80
+  273  reboot
+  274  history | tail -n 6
+  275  cd ..
+  276  cd ..
+  277  cd ~
+  278  history | tail -n 6
+  279  history | tail -n 10
+]0;root@mycentos-instance:~[?2004h[root@mycentos-instance ~]# history | tail -n 10[1P6cd ~[K..history | tail -n 6reboot[Klsof -i :80[2Pps -p 727lsof -i :80yum install lsofnetstat -ano | find "LISTENING" | find ":80"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[28Pyum install lsof[5Plsof -i :80[2Pps -p 727[K[K[K[K[K[K[K[K[Kcd /[K[K[K[Kansible locak[Kk[Klhi[Kost -, [K[Km oing[K[K[K[Kping
+[?2004l[0;32mlocalhost | SUCCESS => {[0m
+[0;32m    "changed": false,[0m
+[0;32m    "ping": "pong"[0m
+[0;32m}[0m
+]0;root@mycentos-instance:~[?2004h[root@mycentos-instance ~]# cd /etc/[K[K[K[K[K[K[K[Kd[Kcd /etc/[K
+[?2004l]0;root@mycentos-instance:/etc[?2004h[root@mycentos-instance etc]# ls
+[?2004l[0m[01;34macpi[0m                     [01;34mfwupd[0m               machine-id                [01;34mrsyslog.d[0m
+adjtime                  [01;34mgcrypt[0m              magic                     [01;34mrwtab.d[0m
+aliases                  [01;34mgnupg[0m               mailcap                   [01;34msamba[0m
+[01;34malternatives[0m             google_instance_id  makedumpfile.conf.sample  [01;34msasl2[0m
+anacrontab               GREP_COLORS         man_db.conf               [01;34msecurity[0m
+[01;34mansible[0m                  [01;34mgroff[0m               mime.types                [01;34mselinux[0m
+[01;34maudit[0m                    group               mke2fs.conf               services
+[01;34mauthselect[0m               group-              [01;34mmodprobe.d[0m                sestatus.conf
+[01;34mbash_completion.d[0m        [01;36mgrub2.cfg[0m           [01;34mmodules-load.d[0m            shadow
+bashrc                   [01;36mgrub2-efi.cfg[0m       motd                      shadow-
+bindresvport.blacklist   [01;34mgrub.d[0m              [01;34mmotd.d[0m                    shells
+[01;34mbinfmt.d[0m                 gshadow             [01;36mmtab[0m                      [01;34mskel[0m
+centos-release           gshadow-            netconfig                 [01;34mssh[0m
+chrony.conf              [01;34mgss[0m                 [01;34mNetworkManager[0m            [01;34mssl[0m
+chrony.keys              host.conf           networks                  [01;34msssd[0m
+[01;34mcifs-utils[0m               hostname            [01;34mnftables[0m                  [01;34mstatetab.d[0m
+[01;34mcron.d[0m                   hosts               nsswitch.conf             subgid
+[01;34mcron.daily[0m               [01;34mhttpd[0m               nsswitch.conf.bak         subgid-
+cron.deny                inittab             [01;34mnvme[0m                      subuid
+[01;34mcron.hourly[0m              inputrc             [01;34mopenldap[0m                  subuid-
+[01;34mcron.monthly[0m             [01;34miproute2[0m            [01;34mopt[0m                       sudo.conf
+crontab                  issue               oslogin_group.cache       sudoers
+[01;34mcron.weekly[0m              [01;34missue.d[0m             oslogin_passwd.cache      [01;34msudoers.d[0m
+[01;34mcrypto-policies[0m          issue.net           [01;36mos-release[0m                sudo-ldap.conf
+crypttab                 [01;34mkdump[0m               [01;34mpam.d[0m                     [01;34msysconfig[0m
+csh.cshrc                kdump.conf          passwd                    sysctl.conf
+csh.login                [01;34mkernel[0m              passwd-                   [01;34msysctl.d[0m
+[01;34mdbus-1[0m                   krb5.conf           [01;34mpkcs11[0m                    [01;34msystemd[0m
+[01;34mdebuginfod[0m               [01;34mkrb5.conf.d[0m         [01;34mpki[0m                       [01;36msystem-release[0m
+[01;34mdefault[0m                  ld.so.cache         [01;34mpm[0m                        system-release-cpe
+[01;34mdepmod.d[0m                 ld.so.conf          [01;34mpolkit-1[0m                  [01;34mterminfo[0m
+[01;34mdhcp[0m                     [01;34mld.so.conf.d[0m        [01;34mpopt.d[0m                    [01;34mtmpfiles.d[0m
+DIR_COLORS               libaudit.conf       printcap                  [01;34mtpm2-tss[0m
+DIR_COLORS.lightbgcolor  [01;34mlibblockdev[0m         profile                   [01;34mudev[0m
+[01;34mdnf[0m                      [01;34mlibibverbs.d[0m        [01;34mprofile.d[0m                 [01;34mudisks2[0m
+dracut.conf              [01;34mlibnl[0m               protocols                 vconsole.conf
+[01;34mdracut.conf.d[0m            [01;34mlibreport[0m           [01;34mqemu-ga[0m                   vimrc
+environment              [01;34mlibssh[0m              [01;34mrc.d[0m                      virc
+ethertypes               libuser.conf        [01;36mrc.local[0m                  [01;34mX11[0m
+exports                  locale.conf         [01;36mredhat-release[0m            xattr.conf
+filesystems              [01;36mlocaltime[0m           resolv.conf               [01;34mxdg[0m
+[01;34mfirewalld[0m                login.defs          rpc                       [01;34myum[0m
+[01;34mfonts[0m                    logrotate.conf      [01;34mrpm[0m                       [01;36myum.conf[0m
+fstab                    [01;34mlogrotate.d[0m         rsyslog.conf              [01;34myum.repos.d[0m
+]0;root@mycentos-instance:/etc[?2004h[root@mycentos-instance etc]# cd ansible
+[?2004l]0;root@mycentos-instance:/etc/ansible[?2004h[root@mycentos-instance ansible]# ls
+[?2004lansible.cfg  ansiblecommands.txt  hosts  [0m[01;34mroles[0m
+]0;root@mycentos-instance:/etc/ansible[?2004h[root@mycentos-instance ansible]# less ansible.cfg
+[?2004l[?1049h[22;0;0t[?1h=# Since Ansible 2.12 (core):
+# To generate an example config file (a "disabled" one with all default settings, commented out) :
+#               $ ansible-config init --disabled > ansible.cfg
+#
+# Also you can now have a more complete file by including existing plugins:
+# ansible-config init --disabled -t all > ansible.cfg
+
+# For previous versions of Ansible you can check for examples in the 'stable' branches of each v ersion
+# Note that this file was always incomplete  and lagging changes to configuration settings
+
+# for example, for 2.9: https://github.com/ansible/ansible/blob/stable-2.9/examples/ansible.cfg
+[7mansible.cfg (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K...skipping...
+# Since Ansible 2.12 (core):
+# To generate an example config file (a "disabled" one with all default settings, commented out) :
+#               $ ansible-config init --disabled > ansible.cfg
+#
+# Also you can now have a more complete file by including existing plugins:
+# ansible-config init --disabled -t all > ansible.cfg
+
+# For previous versions of Ansible you can check for examples in the 'stable' branches of each v ersion
+# Note that this file was always incomplete  and lagging changes to configuration settings
+
+# for example, for 2.9: https://github.com/ansible/ansible/blob/stable-2.9/examples/ansible.cfg
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [K::[Kqq[K[?1l>[?1049l[23;0;0t]0;root@mycentos-instance:/etc/ansible[?2004h[root@mycentos-instance ansible]# ![K[7mansible-config init --disabled > ansible.cfg[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cansible-config init --disabled > ansible.cfg[C
+[?2004l]0;root@mycentos-instance:/etc/ansible[?2004h[root@mycentos-instance ansible]# ansible-config init --disabled > ansible.cfg[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[28Pless[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?1049h[22;0;0t[?1h=[defaults]
+# (boolean) By default Ansible will issue a warning when received from a task action (module or  action plugin)
+# These warnings can be silenced by adjusting this setting to False.
+;action_warnings=True
+
+# (list) Accept list of cowsay templates that are 'safe' to use, set to empty list if you want t o enable all installed templates.
+;cowsay_enabled_stencils=bud-frogs, bunny, cheese, daemon, default, dragon, elephant-in-snake, e lephant, eyes, hellokitty, kitty, luke-koala, meow, milk, moofasa, moose, ren, sheep, small, ste gosaurus, stimpy, supermilker, three-eyes, turkey, turtle, tux, udder, vader-koala, vader, www
+
+# (string) Specify a custom cowsay path or swap in your cowsay implementation of choice
+;cowpath=
+
+# (string) This allows you to chose a specific cowsay stencil for the banners or use 'random' to  cycle through them.
+;cow_selection=default
+
+# (boolean) This option forces color mode even when running without a TTY or the "nocolor" setti ng is True.
+;force_color=False
+
+# (path) The default root path for Ansible config files on the controller.
+;home=~/.ansible
+
+# (boolean) This setting allows suppressing colorizing output, which is used to give a better in dication of failure and status information.
+;nocolor=False
+[7mansible.cfg[27m[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (boolean) If you have cowsay installed but want to avoid the 'cows' (why????), use this.
+:[K[K [KESCESC[KOO[KBB[K;nocows=False
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (boolean) Sets the default value for the any_errors_fatal keyword, if True, Task failures will :[K[K [KESCESC[KOO[KBB[K be considered fatal errors.
+:[K[K [KESCESC[KOO[KBB[K;any_errors_fatal=False
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (path) The password file to use for the become plugin. --become-password-file.
+:[K[K [KESCESC[KOO[KBB[K# If executable, it will be run and the resulting stdout will be used as the password.
+:[K[K [KESCESC[KOO[KBB[K;become_password_file=
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (pathspec) Colon separated paths in which Ansible will search for Become Plugins.
+:[K[K [KESCESC[KOO[KBB[K;become_plugins={{ ANSIBLE_HOME ~ "/plugins/become:/usr/share/ansible/plugins/become" }}
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (string) Chooses which cache plugin to use, the default 'memory' is ephemeral.
+:[K[K [KESCESC[KOO[KBB[K;fact_caching=memory
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (string) Defines connection or path information for the cache plugin
+:[K[K [KESCESC[KOO[KBB[K;fact_caching_connection=
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (string) Prefix to use for cache plugin files/tables
+:[K[K [KESCESC[KOO[KBB[K;fact_caching_prefix=ansible_facts
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (integer) Expiration timeout for the cache plugin data
+:[K[K [KESCESC[KOO[KBB[K;fact_caching_timeout=86400
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (list) List of enabled callbacks, not all callbacks need enabling, but many of those shipped w :[K[K [KESCESC[KOO[KBB[Kith Ansible do as we don't want them activated by default.
+:[K[K [KESCESC[KOO[KBB[K;callbacks_enabled=
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (string) When a collection is loaded that does not support the running Ansible version (with t :[K[K [KESCESC[KOO[KBB[Khe collection metadata key `requires_ansible`).
+:[K[K [KESCESC[KOO[KBB[K;collections_on_ansible_version_mismatch=warning
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (pathspec) Colon separated paths in which Ansible will search for collections content. Collect :[K[K [KESCESC[KOO[KBB[Kions must be in nested *subdirectories*, not directly in these directories. For example, if ``CO :[K[K [KESCESC[KOO[KBB[KLLECTIONS_PATHS`` includes ``'{{ ANSIBLE_HOME ~ "/collections" }}'``, and you want to add ``my.c :[K[K [KESCESC[KOO[KBB[Kollection`` to that directory, it must be saved as ``'{{ ANSIBLE_HOME} ~ "/collections/ansible_c :[K[K [KESCESC[KOO[KBB[Kollections/my/collection" }}'``.
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K;collections_path={{ ANSIBLE_HOME ~ "/collections:/usr/share/ansible/collections" }}
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (boolean) A boolean to enable or disable scanning the sys.path for installed collections
+:[K[K [KESCESC[KOO[KBB[K;collections_scan_sys_path=True
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (path) The password file to use for the connection plugin. --connection-password-file.
+:[K[K [KESCESC[KOO[KBB[K;connection_password_file=
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (pathspec) Colon separated paths in which Ansible will search for Action Plugins.
+:[K[K [KESCESC[KOO[KBB[K;action_plugins={{ ANSIBLE_HOME ~ "/plugins/action:/usr/share/ansible/plugins/action" }}
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (boolean) When enabled, this option allows lookup plugins (whether used in variables as ``{{lo :[K[K [KESCESC[KOO[KBB[Kokup('foo')}}`` or as a loop as with_foo) to return data that is not marked 'unsafe'.
+:[K[K [KESCESC[KOO[KBB[K# By default, such data is marked as unsafe to prevent the templating engine from evaluating any :[K[K [KESCESC[KOO[KBB[K jinja2 templating language, as this could represent a security risk. This option is provided to :[K[K [KESCESC[KOO[KBB[K allow for backward compatibility, however users should first consider adding allow_unsafe=True  :[K[K [KESCESC[KOO[KBB[Kto any lookups which may be expected to contain data which may be run through the templating eng :[K[K [KESCESC[KOO[KBB[Kine late
+:[K[K [KESCESC[KOO[KBB[K;allow_unsafe_lookups=False
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (boolean) This controls whether an Ansible playbook should prompt for a login password. If usi :[K[K [KESCESC[KOO[KBB[Kng SSH keys for authentication, you probably do not need to change this setting.
+:[K[K [KESCESC[KOO[KBB[K;ask_pass=False
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (boolean) This controls whether an Ansible playbook should prompt for a vault password.
+:[K[K [KESCESC[KOO[KBB[K;ask_vault_pass=False
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (pathspec) Colon separated paths in which Ansible will search for Cache Plugins.
+:[K[K [KESCESC[KOO[KBB[K;cache_plugins={{ ANSIBLE_HOME ~ "/plugins/cache:/usr/share/ansible/plugins/cache" }}
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (pathspec) Colon separated paths in which Ansible will search for Callback Plugins.
+:[K[K [KESCESC[KOO[KBB[K;callback_plugins={{ ANSIBLE_HOME ~ "/plugins/callback:/usr/share/ansible/plugins/callback" }}
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (pathspec) Colon separated paths in which Ansible will search for Cliconf Plugins.
+:[K[K [KESCESC[KOO[KBB[K;cliconf_plugins={{ ANSIBLE_HOME ~ "/plugins/cliconf:/usr/share/ansible/plugins/cliconf" }}
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (pathspec) Colon separated paths in which Ansible will search for Connection Plugins.
+:[K[K [KESCESC[KOO[KBB[K;connection_plugins={{ ANSIBLE_HOME ~ "/plugins/connection:/usr/share/ansible/plugins/connection :[K[K [KESCESC[KOO[KBB[K" }}
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (boolean) Toggles debug output in Ansible. This is *very* verbose and can hinder multiprocessi :[K[K [KESCESC[KOO[KBB[Kng.  Debug output can also include secret information despite no_log settings being enabled, whi :[K[K [KESCESC[KOO[KBB[Kch means debug mode should not be used in production.
+:[K[K [KESCESC[KOO[KBB[K;debug=False
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (string) This indicates the command to use to spawn a shell under for Ansible's execution need :[K[K [KESCESC[KOO[KBB[Ks on a target. Users may need to change this in rare instances when shell usage is constrained,  :[K[K [KESCESC[KOO[KBB[Kbut in most cases it may be left as is.
+:[K[K [KESCESC[KOO[KBB[K;executable=/bin/sh
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (string) This option allows you to globally configure a custom path for 'local_facts' for the  :[K[K [KESCESC[KOO[KBB[Kimplied :ref:`ansible_collections.ansible.builtin.setup_module` task when using fact gathering.
+:[K[K [KESCESC[KOO[KBB[K# If not set, it will fallback to the default from the ``ansible.builtin.setup`` module: ``/etc/ :[K[K [KESCESC[KOO[KBB[Kansible/facts.d``.
+:[K[K [KESCESC[KOO[KBB[K# This does **not** affect  user defined tasks that use the ``ansible.builtin.setup`` module.
+:[K[K [KESCESC[KOO[KBB[K# The real action being created by the implicit task is currently    ``ansible.legacy.gather_fac :[K[K [KESCESC[KOO[KBB[Kts`` module, which then calls the configured fact modules, by default this will be ``ansible.bui :[K[K [KESCESC[KOO[KBB[Kltin.setup`` for POSIX systems but other platforms might have different defaults.
+:[K[K [KESCESC[KOO[KBB[K;fact_path=
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (pathspec) Colon separated paths in which Ansible will search for Jinja2 Filter Plugins.
+:[K[K [KESCESC[KOO[KBB[K;filter_plugins={{ ANSIBLE_HOME ~ "/plugins/filter:/usr/share/ansible/plugins/filter" }}
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (boolean) This option controls if notified handlers run on a host even if a failure occurs on  :[K[K [KESCESC[KOO[KBB[Kthat host.
+:[K[K [KESCESC[KOO[KBB[K# When false, the handlers will not run if a failure has occurred on a host.
+:[K[K [KESCESC[KOO[KBB[K# This can also be set per play or on the command line. See Handlers and Failure for more detail :[K[K [KESCESC[KOO[KBB[Ks.
+:[K[K [KESCESC[KOO[KBB[K;force_handlers=False
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (integer) Maximum number of forks Ansible will use to execute tasks on target hosts.
+:[K[K [KESCESC[KOO[KBB[K;forks=5
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (string) This setting controls the default policy of fact gathering (facts discovered about re :[K[K [KESCESC[KOO[KBB[Kmote systems).
+:[K[K [KESCESC[KOO[KBB[K# This option can be useful for those wishing to save fact gathering time. Both 'smart' and 'exp :[K[K [KESCESC[KOO[KBB[Klicit' will use the cache plugin.
+:[K[K [KESCESC[KOO[KBB[K;gathering=implicit
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (list) Set the `gather_subset` option for the :ref:`ansible_collections.ansible.builtin.setup_ :[K[K [KESCESC[KOO[KBB[Kmodule` task in the implicit fact gathering. See the module documentation for specifics.
+:[K[K [KESCESC[KOO[KBB[K# It does **not** apply to user defined ``ansible.builtin.setup`` tasks.
+:[K[K [KESCESC[KOO[KBB[K;gather_subset=
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (integer) Set the timeout in seconds for the implicit fact gathering, see the module documenta :[K[K [KESCESC[KOO[KBB[Ktion for specifics.
+:[K[K [KESCESC[KOO[KBB[K# It does **not** apply to user defined :ref:`ansible_collections.ansible.builtin.setup_module`  :[K[K [KESCESC[KOO[KBB[Ktasks.
+:[K[K [KESCESC[KOO[KBB[K;gather_timeout=
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (string) This setting controls how duplicate definitions of dictionary variables (aka hash, ma :[K[K [KESCESC[KOO[KBB[Kp, associative array) are handled in Ansible.
+:[K[K [KESCESC[KOO[KBB[K# This does not affect variables whose values are scalars (integers, strings) or arrays.
+:[K[K [KESCESC[KOO[KBB[K# **WARNING**, changing this setting is not recommended as this is fragile and makes your conten :[K[K [KESCESC[KOO[KBB[Kt (plays, roles, collections) non portable, leading to continual confusion and misuse. Don't cha :[K[K [KESCESC[KOO[KBB[Knge this setting unless you think you have an absolute need for it.
+:[K[K [KESCESC[KOO[KBB[K# We recommend avoiding reusing variable names and relying on the ``combine`` filter and ``vars` :[K[K [KESCESC[KOO[KBB[K` and ``varnames`` lookups to create merged versions of the individual variables. In our experie :[K[K [KESCESC[KOO[KBB[Knce this is rarely really needed and a sign that too much complexity has been introduced into th :[K[K [KESCESC[KOO[KBB[Ke data structures and plays.
+:[K[K [KESCESC[KOO[KBB[K# For some uses you can also look into custom vars_plugins to merge on input, even substituting  :[K[K [KESCESC[KOO[KBB[Kthe default ``host_group_vars`` that is in charge of parsing the ``host_vars/`` and ``group_vars :[K[K [KESCESC[KOO[KBB[K/`` directories. Most users of this setting are only interested in inventory scope, but the sett :[K[K [KESCESC[KOO[KBB[King itself affects all sources and makes debugging even harder.
+:[K[K [KESCESC[KOO[KBB[K# All playbooks and roles in the official examples repos assume the default for this setting.
+:[K[K [KESCESC[KOO[KBB[K# Changing the setting to ``merge`` applies across variable sources, but many sources will inter :[K[K [KESCESC[KOO[KBB[Knally still overwrite the variables. For example ``include_vars`` will dedupe variables internal :[K[K [KESCESC[KOO[KBB[Kly before updating Ansible, with 'last defined' overwriting previous definitions in same file.
+:[K[K [KESCESC[KOO[KBB[K# The Ansible project recommends you **avoid ``merge`` for new projects.**
+:[K[K [KESCESC[KOO[KBB[K# It is the intention of the Ansible developers to eventually deprecate and remove this setting, :[K[K [KESCESC[KOO[KBB[K but it is being kept as some users do heavily rely on it. New projects should **avoid 'merge'** :[K[K [KESCESC[KOO[KBB[K.
+:[K[K [KESCESC[KOO[KBB[K;hash_behaviour=replace
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (pathlist) Comma separated list of Ansible inventory sources
+:[K[K [KESCESC[KOO[KBB[K;inventory=/etc/ansible/hosts
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (pathspec) Colon separated paths in which Ansible will search for HttpApi Plugins.
+:[K[K [KESCESC[KOO[KBB[K;httpapi_plugins={{ ANSIBLE_HOME ~ "/plugins/httpapi:/usr/share/ansible/plugins/httpapi" }}
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (float) This sets the interval (in seconds) of Ansible internal processes polling each other.  :[K[K [KESCESC[KOO[KBB[KLower values improve performance with large playbooks at the expense of extra CPU load. Higher v :[K[K [KESCESC[KOO[KBB[Kalues are more suitable for Ansible usage in automation scenarios, when UI responsiveness is not :[K[K [KESCESC[KOO[KBB[K required but CPU usage might be a concern.
+:[K[K [KESCESC[KOO[KBB[K# The default corresponds to the value hardcoded in Ansible <= 2.1
+:[K[K [KESCESC[KOO[KBB[K;internal_poll_interval=0.001
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (pathspec) Colon separated paths in which Ansible will search for Inventory Plugins.
+:[K[K [KESCESC[KOO[KBB[K;inventory_plugins={{ ANSIBLE_HOME ~ "/plugins/inventory:/usr/share/ansible/plugins/inventory" } :[K[K [KESCESC[KOO[KBB[K}
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (string) This is a developer-specific feature that allows enabling additional Jinja2 extension :[K[K [KESCESC[KOO[KBB[Ks.
+:[K[K [KESCESC[KOO[KBB[K# See the Jinja2 documentation for details. If you do not know what these do, you probably don't :[K[K [KESCESC[KOO[KBB[K need to change this setting :)
+:[K[K [KESCESC[KOO[KBB[K;jinja2_extensions=[]
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (boolean) This option preserves variable types during template operations.
+:[K[K [KESCESC[KOO[KBB[K;jinja2_native=False
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (boolean) Enables/disables the cleaning up of the temporary files Ansible used to execute the  :[K[K [KESCESC[KOO[KBB[Ktasks on the remote.
+:[K[K [KESCESC[KOO[KBB[K# If this option is enabled it will disable ``ANSIBLE_PIPELINING``.
+:[K[K [KESCESC[KOO[KBB[K;keep_remote_files=False
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (boolean) Controls whether callback plugins are loaded when running /usr/bin/ansible. This may :[K[K [KESCESC[KOO[KBB[K be used to log activity from the command line, send notifications, and so on. Callback plugins  :[K[K [KESCESC[KOO[KBB[Kare always loaded for ``ansible-playbook``.
+:[K[K [KESCESC[KOO[KBB[K;bin_ansible_callbacks=False
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (tmppath) Temporary directory for Ansible to use on the controller.
+:[K[K [KESCESC[KOO[KBB[K;local_tmp={{ ANSIBLE_HOME ~ "/tmp" }}
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (list) List of logger names to filter out of the log file
+:[K[K [KESCESC[KOO[KBB[K;log_filter=
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (path) File to which Ansible will log on the controller. When empty logging is disabled.
+:[K[K [KESCESC[KOO[KBB[K;log_path=
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (pathspec) Colon separated paths in which Ansible will search for Lookup Plugins.
+:[K[K [KESCESC[KOO[KBB[K;lookup_plugins={{ ANSIBLE_HOME ~ "/plugins/lookup:/usr/share/ansible/plugins/lookup" }}
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (string) Sets the macro for the 'ansible_managed' variable available for :ref:`ansible_collect :[K[K [KESCESC[KOO[KBB[Kions.ansible.builtin.template_module` and :ref:`ansible_collections.ansible.windows.win_template :[K[K [KESCESC[KOO[KBB[K_module`.  This is only relevant for those two modules.
+:[K[K [KESCESC[KOO[KBB[K;ansible_managed=Ansible managed
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (string) This sets the default arguments to pass to the ``ansible`` adhoc binary if no ``-a``  :[K[K [KESCESC[KOO[KBB[Kis specified.
+:[K[K [KESCESC[KOO[KBB[K;module_args=
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (string) Compression scheme to use when transferring Python modules to the target.
+:[K[K [KESCESC[KOO[KBB[K;module_compression=ZIP_DEFLATED
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (string) Module to use with the ``ansible`` AdHoc command, if none is specified via ``-m``.
+:[K[K [KESCESC[KOO[KBB[K;module_name=command
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (pathspec) Colon separated paths in which Ansible will search for Modules.
+:[K[K [KESCESC[KOO[KBB[K;library={{ ANSIBLE_HOME ~ "/plugins/modules:/usr/share/ansible/plugins/modules" }}
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (pathspec) Colon separated paths in which Ansible will search for Module utils files, which ar :[K[K [KESCESC[KOO[KBB[Ke shared by modules.
+:[K[K [KESCESC[KOO[KBB[K;module_utils={{ ANSIBLE_HOME ~ "/plugins/module_utils:/usr/share/ansible/plugins/module_utils"  :[K[K [KESCESC[KOO[KBB[K}}
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (pathspec) Colon separated paths in which Ansible will search for Netconf Plugins.
+:[K[K [KESCESC[KOO[KBB[K;netconf_plugins={{ ANSIBLE_HOME ~ "/plugins/netconf:/usr/share/ansible/plugins/netconf" }}
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (boolean) Toggle Ansible's display and logging of task details, mainly used to avoid security  :[K[K [KESCESC[KOO[KBB[Kdisclosures.
+:[K[K [KESCESC[KOO[KBB[K;no_log=False
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (boolean) Toggle Ansible logging to syslog on the target when it executes tasks. On Windows ho :[K[K [KESCESC[KOO[KBB[Ksts this will disable a newer style PowerShell modules from writing to the event log.
+:[K[K [KESCESC[KOO[KBB[K;no_target_syslog=False
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (raw) What templating should return as a 'null' value. When not set it will let Jinja2 decide.
+:[K[K [KESCESC[KOO[KBB[K;null_representation=
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (integer) For asynchronous tasks in Ansible (covered in Asynchronous Actions and Polling), thi :[K[K [KESCESC[KOO[KBB[Ks is how often to check back on the status of those tasks when an explicit poll interval is not  :[K[K [KESCESC[KOO[KBB[Ksupplied. The default is a reasonably moderate 15 seconds which is a tradeoff between checking i :[K[K [KESCESC[KOO[KBB[Kn frequently and providing a quick turnaround when something may have completed.
+:[K[K [KESCESC[KOO[KBB[K;poll_interval=15
+:[K[K [KESCESC[KOO[KBB[K
+:[K[K [KESCESC[KOO[KBB[K# (path) Option for connections using a certificate or key file to authenticate, rather than an  :[K[K [KESCESC[KOO[KBB[Kagent or passwords, you can set the default value here to avoid re-specifying --private-key with :[K[K[?1l>[?1049l[23;0;0t]0;root@mycentos-instance:/etc/ansible[?2004h[root@mycentos-instance ansible]# clear
+[?2004l[H[2J[3J]0;root@mycentos-instance:/etc/ansible[?2004h[root@mycentos-instance ansible]# mkdir playbooks
+[?2004l]0;root@mycentos-instance:/etc/ansible[?2004h[root@mycentos-instance ansible]# ls
+[?2004lansible.cfg  ansiblecommands.txt  hosts  [0m[01;34mplaybooks[0m  [01;34mroles[0m
+]0;root@mycentos-instance:/etc/ansible[?2004h[root@mycentos-instance ansible]# cd playn[Kbooks
+[?2004l]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# pwd
+[?2004l/etc/ansible/playbooks
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# vi first_playbook[K[K[K[K[K[K[Kb.yml
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;30r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[30;1H"first_pb.yml" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                               [3;1H~                                                                                               [4;1H~                                                                                               [5;1H~                                                                                               [6;1H~                                                                                               [7;1H~                                                                                               [8;1H~                                                                                               [9;1H~                                                                                               [10;1H~                                                                                               [11;1H~                                                                                               [12;1H~                                                                                               [13;1H~                                                                                               [14;1H~                                                                                               [15;1H~                                                                                               [16;1H~                                                                                               [17;1H~                                                                                               [18;1H~                                                                                               [19;1H~                                                                                               [20;1H~                                                                                               [21;1H~                                                                                               [22;1H~                                                                                               [23;1H~                                                                                               [24;1H~                                                                                               [25;1H~                                                                                               [26;1H~                                                                                               [27;1H~                                                                                               [28;1H~                                                                                               [29;1H~                                                                                               [m[30;79H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[27m[23m[29m[m[H[2J[?25l[2;1H[94m~                                                                                               [3;1H~                                                                                               [4;1H~                                                                                               [5;1H~                                                                                               [6;1H~                                                                                               [7;1H~                                                                                               [8;1H~                                                                                               [9;1H~                                                                                               [10;1H~                                                                                               [11;1H~                                                                                               [12;1H~                                                                                               [13;1H~                                                                                               [14;1H~                                                                                               [15;1H~                                                                                               [16;1H~                                                                                               [17;1H~                                                                                               [18;1H~                                                                                               [19;1H~                                                                                               [20;1H~                                                                                               [21;1H~                                                                                               [22;1H~                                                                                               [23;1H~                                                                                               [24;1H~                                                                                               [25;1H~                                                                                               [26;1H~                                                                                               [27;1H~                                                                                               [28;1H~                                                                                               [29;1H~                                                                                               [m[30;79H0,0-1[9CAll"first_pb.yml" [New][1;1H[?25h[?25l[30;69Hi[1;1H[30;69H [1;1H[30;1H[1m-- INSERT --[m[30;13H[K[30;79H0,1[11CAll[1;1H[?25h[?25l-[30;79H1,2[1;2H[?25h[?25l-[30;81H3[1;3H[?25h[?25l[38;5;81m---[m[30;81H4[1;4H[?25h[?25l[2;1H[K[30;79H2,1[2;1H[?25h[?25l-[30;81H2[2;2H[?25h[?25l[93m- [m[30;81H3[2;3H[?25h[?25ln[30;81H4[2;4H[?25h[?25la[30;81H5[2;5H[?25h[?25lm[30;81H6[2;6H[?25h[?25le[30;81H7[2;7H[?25h[?25l"[30;81H8[2;8H[?25h[?25l[2;7H[K[30;81H7[2;7H[?25h[?25l[2;6H[K[30;81H6[2;6H[?25h[?25le[30;81H7[2;7H[?25h[?25l[2;3H[1m[96mname[m[38;5;224m:[m[30;81H8[2;8H[?25h[?25l[30;81H9[2;9H[?25h[?25l[95m"[m[30;81H10[2;10H[?25h[?25l[2;9H[K[30;81H9 [2;9H[?25h[?25lF[30;81H10[2;10H[?25h[?25li[30;82H1[2;11H[?25h[?25lr[30;82H2[2;12H[?25h[?25ls[30;82H3[2;13H[?25h[?25lt[30;82H4[2;14H[?25h[?25l[30;82H5[2;15H[?25h[?25lB[30;82H6[2;16H[?25h[?25la[30;82H7[2;17H[?25h[?25ls[30;82H8[2;18H[?25h[?25li[30;82H9[2;19H[?25h[?25lc[30;81H20[2;20H[?25h[?25l[30;82H1[2;21H[?25h[?25lP[30;82H2[2;22H[?25h[?25ll[30;82H3[2;23H[?25h[?25la[30;82H4[2;24H[?25h[?25ly[30;82H5[2;25H[?25h[?25lb[30;82H6[2;26H[?25h[?25lo[30;82H7[2;27H[?25h[?25lo[30;82H8[2;28H[?25h[?25lk[30;82H9[2;29H[?25h[?25l
+  [3;3H[K[30;79H3,3 [3;3H[?25h[?25lh[30;81H4[3;4H[?25h[?25lo[30;81H5[3;5H[?25h[?25ls[30;81H6[3;6H[?25h[?25lt[30;81H7[3;7H[?25h[?25l  [1m[96mhost[m[38;5;224m:[m[30;81H8[3;8H[?25h[?25l  host[3;7H[K[30;81H7[3;7H[?25h[?25ls[30;81H8[3;8H[?25h[?25l  [1m[96mhosts[m[38;5;224m:[m[30;81H9[3;9H[?25h[?25l[30;81H10[3;10H[?25h[?25ll[30;82H1[3;11H[?25h[?25lo[30;82H2[3;12H[?25h[?25lc[30;82H3[3;13H[?25h[?25la[30;82H4[3;14H[?25h[?25ll[30;82H5[3;15H[?25h[?25lh[30;82H6[3;16H[?25h[?25lo[30;82H7[3;17H[?25h[?25ls[30;82H8[3;18H[?25h[?25lt[30;82H9[3;19H[?25h[?25l
+    [4;5H[K[30;79H4,5 [4;5H[?25h[?25l
+    [5;5H[K[30;79H5[5;5H[?25h[?25l[30;81H4[5;4H[?25h[?25l[30;81H3[5;3H[?25h[?25l[30;79H4,1[4;1H[?25h[?25l[30;81H2[4;2H[?25h[?25l[30;81H3[4;3H[?25h[?25l[30;79H5[5;3H[?25h[?25lt[30;81H4[5;4H[?25h[?25la[30;81H5[5;5H[?25h[?25ls[30;81H6[5;6H[?25h[?25lk[30;81H7[5;7H[?25h[?25ls[30;81H8[5;8H[?25h[?25l  [1m[96mtasks[m[38;5;224m:[m[30;81H9[5;9H[?25h[?25l
+    [6;5H[K[30;79H6,3[6;3H[?25h[?25l  [93m- [m[30;81H6[6;6H[?25h[?25l[30;81H5[6;5H[?25h[?25l[30;81H4[6;4H[?25h[?25l[30;81H3[6;3H[?25h[?25l[30;81H4[6;4H[?25h[?25l[30;81H5[6;5H[?25h[?25l[30;81H6[6;6H[?25h[?25l  [30;81H5[6;5H[?25h[?25l[30;81H3[6;3H[?25h[?25l[93m- [m[30;81H4[6;4H[?25h[?25l[30;81H5[6;5H[?25h[?25ln[30;81H6[6;6H[?25h[?25la[30;81H7[6;7H[?25h[?25lm[30;81H8[6;8H[?25h[?25le[30;81H9[6;9H[?25h[?25l[1m[96mname[m[38;5;224m:[m[30;81H10[6;10H[?25h[?25l[30;82H1[6;11H[?25h[?25lT[30;82H2[6;12H[?25h[?25le[30;82H3[6;13H[?25h[?25ls[30;82H4[6;14H[?25h[?25lt[30;82H5[6;15H[?25h[?25l[30;82H6[6;16H[?25h[?25lc[30;82H7[6;17H[?25h[?25lo[30;82H8[6;18H[?25h[?25ln[30;82H9[6;19H[?25h[?25ln[30;81H20[6;20H[?25h[?25le[30;82H1[6;21H[?25h[?25lc[30;82H2[6;22H[?25h[?25lt[30;82H3[6;23H[?25h[?25li[30;82H4[6;24H[?25h[?25lv[30;82H5[6;25H[?25h[?25li[30;82H6[6;26H[?25h[?25lt[30;82H7[6;27H[?25h[?25ly[30;82H8[6;28H[?25h[?25l [30;82H7[6;27H[?25h[?25ly[30;82H8[6;28H[?25h[?25l
+    [7;5H[K[30;79H7,3 [7;3H[?25h[?25l[30;81H4[7;4H[?25h[?25l[30;81H5[7;5H[?25h[?25l[30;81H6[7;6H[?25h[?25l[30;81H5[7;5H[?25h[?25lp[30;81H6[7;6H[?25h[?25li[30;81H7[7;7H[?25h[?25ln[30;81H8[7;8H[?25h[?25lg[30;81H9[7;9H[?25h[?25l[1m[96mping[m[38;5;224m:[m[30;81H10[7;10H[?25h[30;1H[K[7;9H[?25l[30;69H^[[7;9H[30;69H  [7;10H[30;79H7,9[11CAll[7;9H[?25h[?25l[30;69H:[7;9H[30;69H[K[30;1H:[?25hwq![?25l[?2004l[>4;m"first_pb.yml" [New] 7L, 104B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# ls
+[?2004lfirst_pb.yml
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# ls -ltr
+[?2004ltotal 4
+-rw-r--r--. 1 root root 104 Feb 14 07:36 first_pb.yml
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# ansible-[la[K[K[Kplaybook i[Kfirst_pb.yml
+[?2004l[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit[0m
+[1;35mlocalhost does not match 'all'[0m
+
+PLAY [First Basic Playbook] ********************************************************************
+
+TASK [Gathering Facts] *************************************************************************
+[0;32mok: [localhost][0m
+
+TASK [Test connectivity] ***********************************************************************
+[0;32mok: [localhost][0m
+
+PLAY RECAP *************************************************************************************
+[0;32mlocalhost[0m                  : [0;32mok=2   [0m changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# ansible-playbook first_pb.ymlsfirst_pb.ymlyfirst_pb.ymlnfirst_pb.ymltfirst_pb.ymlafirst_pb.ymlsfirst_pb.yml[1Pfirst_pb.ymlxfirst_pb.yml-first_pb.ymlcfirst_pb.ymlhfirst_pb.ymlefirst_pb.ymlcfirst_pb.ymlkfirst_pb.yml first_pb.yml[1@-[1@-
+[?2004l[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit[0m
+[1;35mlocalhost does not match 'all'[0m
+
+playbook: first_pb.yml
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# ansible-playbook --syntax-check first_pb.yml[15Pfirst_pb.ymlls -ltr[K[Kvi first_pb.yml
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;30r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[30;1H"first_pb.yml" 7L, 104B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[35m---[m
+[38;5;130m- [m[36mname[m[35m:[m First Basic Playbook[2;29H[K[3;1H  [36mhosts[m[35m:[m localhost[3;19H[K[5;3H[36mtasks[m[35m:[m
+  [38;5;130m- [m[36mname[m[35m:[m Test connectivity
+    [36mping[m[35m:[m
+[94m~                                                                                               [9;1H~                                                                                               [10;1H~                                                                                               [11;1H~                                                                                               [12;1H~                                                                                               [13;1H~                                                                                               [14;1H~                                                                                               [15;1H~                                                                                               [16;1H~                                                                                               [17;1H~                                                                                               [18;1H~                                                                                               [19;1H~                                                                                               [20;1H~                                                                                               [21;1H~                                                                                               [22;1H~                                                                                               [23;1H~                                                                                               [24;1H~                                                                                               [25;1H~                                                                                               [26;1H~                                                                                               [27;1H~                                                                                               [28;1H~                                                                                               [29;1H~                                                                                               [m[30;79H7,9[11CAll[7;9H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[27m[23m[29m[m[H[2J[?25l[1;1H[38;5;81m---[m
+[93m- [m[1m[96mname[m[38;5;224m:[m First Basic Playbook
+  [1m[96mhosts[m[38;5;224m:[m localhost
+
+  [1m[96mtasks[m[38;5;224m:[m
+  [93m- [m[1m[96mname[m[38;5;224m:[m Test connectivity
+    [1m[96mping[m[38;5;224m:[m
+[94m~                                                                                               [9;1H~                                                                                               [10;1H~                                                                                               [11;1H~                                                                                               [12;1H~                                                                                               [13;1H~                                                                                               [14;1H~                                                                                               [15;1H~                                                                                               [16;1H~                                                                                               [17;1H~                                                                                               [18;1H~                                                                                               [19;1H~                                                                                               [20;1H~                                                                                               [21;1H~                                                                                               [22;1H~                                                                                               [23;1H~                                                                                               [24;1H~                                                                                               [25;1H~                                                                                               [26;1H~                                                                                               [27;1H~                                                                                               [28;1H~                                                                                               [29;1H~                                                                                               [m[30;79H7,9[11CAll"first_pb.yml" 7L, 104B[7;9H[?25h[?25l[30;69Hi[7;9H[30;69H [7;9H[30;1H[1m-- INSERT --[m[30;13H[K[30;79H7,9[11CAll[7;9H[?25h[?25l[30;81H10[7;10H[?25h[?25l
+      [8;7H[K[30;79H8,5 [8;5H[?25h[?25l[30;81H4[8;4H[?25h[?25l[30;81H3[8;3H[?25h[?25l    [93m- [m[30;81H8[8;8H[?25h[?25l[30;81H7[8;7H[?25h[?25l[30;81H6[8;6H[?25h[?25l[93m- [m [30;81H5[8;5H[?25h[?25l[93m- [m  [30;81H3[8;3H[?25h[?25l[93m- [m  [30;81H1[8;1H[?25h[?25l  [93m- [m[30;81H2[8;2H[?25h[?25l[30;81H3[8;3H[?25h[?25l[30;81H4[8;4H[?25h[?25l[30;81H5[8;5H[?25h[?25lb[30;81H6[8;6H[?25h[?25l [30;81H5[8;5H[?25h[?25ln[30;81H6[8;6H[?25h[?25la[30;81H7[8;7H[?25h[?25lm[30;81H8[8;8H[?25h[?25le[30;81H9[8;9H[?25h[?25l{[30;81H10[8;10H[?25h[?25l [30;81H9 [8;9H[?25h[?25l[1m[96mname[m[38;5;224m:[m[30;81H10[8;10H[?25h[?25l[30;82H1[8;11H[?25h[?25l[95m"   [m[30;82H2[8;12H[?25h[?25l[95mP   [m[30;82H3[8;13H[?25h[?25l[95mr   [m[30;82H4[8;14H[?25h[?25l[95mi   [m[30;82H5[8;15H[?25h[?25l[95mn   [m[30;82H6[8;16H[?25h[?25l[95mt   [m[30;82H7[8;17H[?25h[?25l[3C[95m [m[30;82H8[8;18H[?25h[?25l[95mO   [m[30;82H9[8;19H[?25h[?25l[95mu   [m[30;81H20[8;20H[?25h[?25l[95mt   [m[30;82H1[8;21H[?25h[?25l[95mp   [m[30;82H2[8;22H[?25h[?25l[95mu   [m[30;82H3[8;23H[?25h[?25l[95mt   [m[30;82H4[8;24H[?25h[?25l[95m"[m  [30;82H5[8;25H[?25h[?25l
+    [9;5H[K[30;79H9,2 [9;2H[?25h[?25l[30;81H3[9;3H[?25h[?25l[30;81H4[9;4H[?25h[?25l[30;81H5[9;5H[?25h[?25ld[30;81H6[9;6H[?25h[?25le[30;81H7[9;7H[?25h[?25lb[30;81H8[9;8H[?25h[?25lu[30;81H9[9;9H[?25h[?25lg[30;81H10[9;10H[?25h[?25l[1m[96mdebug[m[38;5;224m:[m[30;82H1[9;11H[?25h[?25l[30;82H2[9;12H[?25h[?25lm[30;82H3[9;13H[?25h[?25ls[30;82H4[9;14H[?25h[?25lg[30;82H5[9;15H[?25h[?25l=[30;82H6[9;16H[?25h[?25l"[30;82H7[9;17H[?25h[?25lA[30;82H8[9;18H[?25h[?25ll[30;82H9[9;19H[?25h[?25lr[30;81H20[9;20H[?25h[?25li[30;82H1[9;21H[?25h[?25lg[30;82H2[9;22H[?25h[?25lh[30;82H3[9;23H[?25h[?25lt[30;82H4[9;24H[?25h[?25l"[30;82H5[9;25H[?25h[?25l[30;82H4[9;24H[?25h[?25l!"[30;82H5[9;25H[?25h[?25l[30;82H6[9;26H[?25h[30;1H[K[9;25H[?25l[30;69H^[[9;25H[30;69H  [9;26H[30;79H9,25[10CAll[9;25H[?25h[?25l[30;69H:[9;25H[30;69H[K[30;1H:[?25hwq![?25l[?2004l[>4;m"first_pb.yml" 9L, 156B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# vi first_pb.yml[29@ansible-playbook --syntax-check[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit[0m
+[1;35mlocalhost does not match 'all'[0m
+
+playbook: first_pb.yml
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# ansible-playbook --syntax-check first_pb.yml[1P first_pb.yml[1P first_pb.yml[1P first_pb.yml[1P first_pb.yml[1P first_pb.yml[1P first_pb.yml[1P first_pb.yml[1P first_pb.yml[1P first_pb.yml[1P first_pb.yml[1P first_pb.yml[1P first_pb.yml[1P first_pb.yml[1P first_pb.yml
+[?2004l[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit[0m
+[1;35mlocalhost does not match 'all'[0m
+
+PLAY [First Basic Playbook] ********************************************************************
+
+TASK [Gathering Facts] *************************************************************************
+[0;32mok: [localhost][0m
+
+TASK [Test connectivity] ***********************************************************************
+[0;32mok: [localhost][0m
+
+TASK [Print Output] ****************************************************************************
+[0;32mok: [localhost] => {[0m
+[0;32m    "msg": "Alright!"[0m
+[0;32m}[0m
+
+PLAY RECAP *************************************************************************************
+[0;32mlocalhost[0m                  : [0;32mok=3   [0m changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# vi app_install.yml
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;30r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[30;1H"app_install.yml" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                               [3;1H~                                                                                               [4;1H~                                                                                               [5;1H~                                                                                               [6;1H~                                                                                               [7;1H~                                                                                               [8;1H~                                                                                               [9;1H~                                                                                               [10;1H~                                                                                               [11;1H~                                                                                               [12;1H~                                                                                               [13;1H~                                                                                               [14;1H~                                                                                               [15;1H~                                                                                               [16;1H~                                                                                               [17;1H~                                                                                               [18;1H~                                                                                               [19;1H~                                                                                               [20;1H~                                                                                               [21;1H~                                                                                               [22;1H~                                                                                               [23;1H~                                                                                               [24;1H~                                                                                               [25;1H~                                                                                               [26;1H~                                                                                               [27;1H~                                                                                               [28;1H~                                                                                               [29;1H~                                                                                               [m[30;79H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[27m[23m[29m[m[H[2J[?25l[2;1H[94m~                                                                                               [3;1H~                                                                                               [4;1H~                                                                                               [5;1H~                                                                                               [6;1H~                                                                                               [7;1H~                                                                                               [8;1H~                                                                                               [9;1H~                                                                                               [10;1H~                                                                                               [11;1H~                                                                                               [12;1H~                                                                                               [13;1H~                                                                                               [14;1H~                                                                                               [15;1H~                                                                                               [16;1H~                                                                                               [17;1H~                                                                                               [18;1H~                                                                                               [19;1H~                                                                                               [20;1H~                                                                                               [21;1H~                                                                                               [22;1H~                                                                                               [23;1H~                                                                                               [24;1H~                                                                                               [25;1H~                                                                                               [26;1H~                                                                                               [27;1H~                                                                                               [28;1H~                                                                                               [29;1H~                                                                                               [m[30;79H0,0-1[9CAll"app_install.yml" [New][1;1H[?25h[?25l[30;69Hi[1;1H[30;69H [1;1H[30;1H[1m-- INSERT --[m[30;13H[K[30;79H0,1[11CAll[1;1H[?25h[?25l-[30;79H1,2[1;2H[?25h[?25l-[30;81H3[1;3H[?25h[?25l[38;5;81m---[m[30;81H4[1;4H[?25h[?25l[2;1H[K[30;79H2,1[2;1H[?25h[?25l-[30;81H2[2;2H[?25h[?25l[93m- [m[30;81H3[2;3H[?25h[?25ln[30;81H4[2;4H[?25h[?25la[30;81H5[2;5H[?25h[?25lm[30;81H6[2;6H[?25h[?25le[30;81H7[2;7H[?25h[?25l"[30;81H8[2;8H[?25h[?25l[2;7H[K[30;81H7[2;7H[?25h[?25l[2;3H[1m[96mname[m[38;5;224m:[m[30;81H8[2;8H[?25h[?25l[30;81H9[2;9H[?25h[?25lI[30;81H10[2;10H[?25h[?25ln[30;82H1[2;11H[?25h[?25ls[30;82H2[2;12H[?25h[?25lt[30;82H3[2;13H[?25h[?25la[30;82H4[2;14H[?25h[?25ll[30;82H5[2;15H[?25h[?25ll[30;82H6[2;16H[?25h[?25li[30;82H7[2;17H[?25h[?25ln[30;82H8[2;18H[?25h[?25lg[30;82H9[2;19H[?25h[?25l[30;81H20[2;20H[?25h[?25l[30;81H19[2;19H[?25h[?25l[2;18H[K[30;82H8[2;18H[?25h[?25l[2;17H[K[30;82H7[2;17H[?25h[?25l[2;16H[K[30;82H6[2;16H[?25h[?25l[2;15H[K[30;82H5[2;15H[?25h[?25ll[30;82H6[2;16H[?25h[?25l[30;82H7[2;17H[?25h[?25la[30;82H8[2;18H[?25h[?25ln[30;82H9[2;19H[?25h[?25ld[30;81H20[2;20H[?25h[?25l[30;82H1[2;21H[?25h[?25lS[30;82H2[2;22H[?25h[?25lt[30;82H3[2;23H[?25h[?25la[30;82H4[2;24H[?25h[?25lr[30;82H5[2;25H[?25h[?25lt[30;82H6[2;26H[?25h[?25l[30;82H7[2;27H[?25h[?25lt[30;82H8[2;28H[?25h[?25lh[30;82H9[2;29H[?25h[?25le[30;81H30[2;30H[?25h[?25l[30;82H1[2;31H[?25h[?25lS[30;82H2[2;32H[?25h[?25le[30;82H3[2;33H[?25h[?25lr[30;82H4[2;34H[?25h[?25lv[30;82H5[2;35H[?25h[?25li[30;82H6[2;36H[?25h[?25lc[30;82H7[2;37H[?25h[?25le[30;82H8[2;38H[?25h[?25l[2;37H[K[30;82H7[2;37H[?25h[?25l[2;36H[K[30;82H6[2;36H[?25h[?25l[2;35H[K[30;82H5[2;35H[?25h[?25l[2;34H[K[30;82H4[2;34H[?25h[?25l[2;33H[K[30;82H3[2;33H[?25h[?25l[2;32H[K[30;82H2[2;32H[?25h[?25l[2;31H[K[30;82H1[2;31H[?25h[?25ls[30;82H2[2;32H[?25h[?25le[30;82H3[2;33H[?25h[?25lr[30;82H4[2;34H[?25h[?25lv[30;82H5[2;35H[?25h[?25li[30;82H6[2;36H[?25h[?25lc[30;82H7[2;37H[?25h[?25le[30;82H8[2;38H[?25h[?25l
+  [3;3H[K[30;79H3,3 [3;3H[?25h[?25lh[30;81H4[3;4H[?25h[?25lo[30;81H5[3;5H[?25h[?25ls[30;81H6[3;6H[?25h[?25lt[30;81H7[3;7H[?25h[?25ls[30;81H8[3;8H[?25h[?25l  [1m[96mhosts[m[38;5;224m:[m[30;81H9[3;9H[?25h[?25l[30;81H10[3;10H[?25h[?25ll[30;82H1[3;11H[?25h[?25lo[30;82H2[3;12H[?25h[?25lc[30;82H3[3;13H[?25h[?25la[30;82H4[3;14H[?25h[?25ll[30;82H5[3;15H[?25h[?25lh[30;82H6[3;16H[?25h[?25lo[30;82H7[3;17H[?25h[?25ls[30;82H8[3;18H[?25h[?25lt[30;82H9[3;19H[?25h[?25l
+    [4;5H[K[30;79H4,5 [4;5H[?25h[?25l[30;81H4[4;4H[?25h[?25l[30;81H3[4;3H[?25h[?25l
+    [5;5H[K[30;79H5[5;3H[?25h[?25lt[30;81H4[5;4H[?25h[?25la[30;81H5[5;5H[?25h[?25ls[30;81H6[5;6H[?25h[?25lk[30;81H7[5;7H[?25h[?25ls[30;81H8[5;8H[?25h[?25l  [1m[96mtasks[m[38;5;224m:[m[30;81H9[5;9H[?25h[?25l
+    [6;5H[K[30;79H6,3[6;3H[?25h[?25l  [93m- [m[30;81H6[6;6H[?25h[?25l[30;81H5[6;5H[?25h[?25l[93m- [m [6;6H[K[30;81H3[6;3H[?25h[?25l[30;81H4[6;4H[?25h[?25l[30;81H5[6;5H[?25h[?25ln[30;81H6[6;6H[?25h[?25la[30;81H7[6;7H[?25h[?25lm[30;81H8[6;8H[?25h[?25le[30;81H9[6;9H[?25h[?25l[1m[96mname[m[38;5;224m:[m[30;81H10[6;10H[?25h[?25l[30;82H1[6;11H[?25h[?25lI[30;82H2[6;12H[?25h[?25ln[30;82H3[6;13H[?25h[?25ls[30;82H4[6;14H[?25h[?25lt[30;82H5[6;15H[?25h[?25la[30;82H6[6;16H[?25h[?25ll[30;82H7[6;17H[?25h[?25ll[30;82H8[6;18H[?25h[?25li[30;82H9[6;19H[?25h[?25ln[30;81H20[6;20H[?25h[?25lg[30;82H1[6;21H[?25h[?25l[30;82H2[6;22H[?25h[?25ln[30;82H3[6;23H[?25h[?25lg[30;82H4[6;24H[?25h[?25ln[30;82H5[6;25H[?25h[?25li[30;82H6[6;26H[?25h[?25lx[30;82H7[6;27H[?25h[?25l[30;82H8[6;28H[?25h[?25l[30;82H7[6;27H[?25h[?25l
+    [7;5H[K[30;79H7,2 [7;2H[?25h[?25l[30;81H3[7;3H[?25h[?25l[30;81H4[7;4H[?25h[?25l[30;81H5[7;5H[?25h[?25ly[30;81H6[7;6H[?25h[?25lu[30;81H7[7;7H[?25h[?25lm[30;81H8[7;8H[?25h[?25l"[30;81H9[7;9H[?25h[?25l [30;81H8[7;8H[?25h[?25l[1m[96myum[m[38;5;224m:[m[30;81H9[7;9H[?25h[?25l
+      [8;7H[K[30;79H8,4[8;4H[?25h[?25l[30;81H5[8;5H[?25h[?25l[30;81H6[8;6H[?25h[?25l[30;81H7[8;7H[?25h[?25ln[30;81H8[8;8H[?25h[?25la[30;81H9[8;9H[?25h[?25lm[30;81H10[8;10H[?25h[?25le[30;82H1[8;11H[?25h[?25l[1m[96mname[m[38;5;224m:[m[30;82H2[8;12H[?25h[?25l[30;82H3[8;13H[?25h[?25ln[30;82H4[8;14H[?25h[?25lg[30;82H5[8;15H[?25h[?25ln[30;82H6[8;16H[?25h[?25li[30;82H7[8;17H[?25h[?25ld[30;82H8[8;18H[?25h[?25l [30;82H7[8;17H[?25h[?25ls[30;82H8[8;18H[?25h[?25l [30;82H7[8;17H[?25h[?25lx[30;82H8[8;18H[?25h[?25l
+        [9;9H[K[30;79H9,6 [9;6H[?25h[?25l[30;81H7[9;7H[?25h[?25ls[30;81H8[9;8H[?25h[?25lt[30;81H9[9;9H[?25h[?25la[30;81H10[9;10H[?25h[?25lt[30;82H1[9;11H[?25h[?25le[30;82H2[9;12H[?25h[?25l"[30;82H3[9;13H[?25h[?25l [30;82H2[9;12H[?25h[?25l[1m[96mstate[m[38;5;224m:[m[30;82H3[9;13H[?25h[?25l[30;82H4[9;14H[?25h[?25lp[30;82H5[9;15H[?25h[?25lr[30;82H6[9;16H[?25h[?25le[30;82H7[9;17H[?25h[?25ls[30;82H8[9;18H[?25h[?25le[30;82H9[9;19H[?25h[?25ln[30;81H20[9;20H[?25h[?25lt[30;82H1[9;21H[?25h[?25l
+        [10;9H[K[30;79H10,6[10;6H[?25h[?25l[30;82H5[10;5H[?25h[?25l[30;82H4[10;4H[?25h[?25l[30;82H5[10;5H[?25h[?25l[30;82H4[10;4H[?25h[?25l[30;82H3[10;3H[?25h[?25l[93m- [m[30;82H4[10;4H[?25h[?25l[30;82H5[10;5H[?25h[?25ln[30;82H6[10;6H[?25h[?25la[30;82H7[10;7H[?25h[?25lm[30;82H8[10;8H[?25h[?25le[30;82H9[10;9H[?25h[?25l"[30;82H10[10;10H[?25h[?25l [30;82H9 [10;9H[?25h[?25l[1m[96mname[m[38;5;224m:[m[30;82H10[10;10H[?25h[?25l[30;83H1[10;11H[?25h[?25lS[30;83H2[10;12H[?25h[?25lt[30;83H3[10;13H[?25h[?25la[30;83H4[10;14H[?25h[?25lr[30;83H5[10;15H[?25h[?25lt[30;83H6[10;16H[?25h[?25li[30;83H7[10;17H[?25h[?25ln[30;83H8[10;18H[?25h[?25lg[30;83H9[10;19H[?25h[?25l[30;82H20[10;20H[?25h[?25lt[30;83H1[10;21H[?25h[?25lh[30;83H2[10;22H[?25h[?25le[30;83H3[10;23H[?25h[?25l[30;83H4[10;24H[?25h[?25ln[30;83H5[10;25H[?25h[?25lg[30;83H6[10;26H[?25h[?25ln[30;83H7[10;27H[?25h[?25li[30;83H8[10;28H[?25h[?25lx[30;83H9[10;29H[?25h[?25l[30;82H30[10;30H[?25h[?25ls[30;83H1[10;31H[?25h[?25le[30;83H2[10;32H[?25h[?25lr[30;83H3[10;33H[?25h[?25lv[30;83H4[10;34H[?25h[?25li[30;83H5[10;35H[?25h[?25lc[30;83H6[10;36H[?25h[?25le[30;83H7[10;37H[?25h[?25l
+    [11;5H[K[30;80H1,1 [11;1H[?25h[?25l[30;82H2[11;2H[?25h[?25l[30;82H3[11;3H[?25h[?25l[30;82H4[11;4H[?25h[?25l[30;82H5[11;5H[?25h[?25ls[30;82H6[11;6H[?25h[?25le[30;82H7[11;7H[?25h[?25lr[30;82H8[11;8H[?25h[?25lv[30;82H9[11;9H[?25h[?25li[30;82H10[11;10H[?25h[?25lc[30;83H1[11;11H[?25h[?25le[30;83H2[11;12H[?25h[?25l"[30;83H3[11;13H[?25h[?25l [30;83H2[11;12H[?25h[?25l    [1m[96mservice[m[38;5;224m:[m[30;83H3[11;13H[?25h[?25l
+      [12;7H[K[30;80H2,3 [12;3H[?25h[?25l[30;82H4[12;4H[?25h[?25l[30;82H5[12;5H[?25h[?25l[30;82H6[12;6H[?25h[?25l[30;82H7[12;7H[?25h[?25ln[30;82H8[12;8H[?25h[?25la[30;82H9[12;9H[?25h[?25lm[30;82H10[12;10H[?25h[?25le[30;83H1[12;11H[?25h[?25l[1m[96mname[m[38;5;224m:[m[30;83H2[12;12H[?25h[?25l[30;83H3[12;13H[?25h[?25ln[30;83H4[12;14H[?25h[?25lg[30;83H5[12;15H[?25h[?25ln[30;83H6[12;16H[?25h[?25li[30;83H7[12;17H[?25h[?25lx[30;83H8[12;18H[?25h[?25l
+        [13;9H[K[30;80H3,5 [13;5H[?25h[?25l[30;82H6[13;6H[?25h[?25l[30;82H7[13;7H[?25h[?25ls[30;82H8[13;8H[?25h[?25lt[30;82H9[13;9H[?25h[?25la[30;82H10[13;10H[?25h[?25lt[30;83H1[13;11H[?25h[?25le[30;83H2[13;12H[?25h[?25l[1m[96mstate[m[38;5;224m:[m[30;83H3[13;13H[?25h[?25l[30;83H4[13;14H[?25h[?25ls[30;83H5[13;15H[?25h[?25lt[30;83H6[13;16H[?25h[?25la[30;83H7[13;17H[?25h[?25lr[30;83H8[13;18H[?25h[?25lt[30;83H9[13;19H[?25h[?25le[30;82H20[13;20H[?25h[?25ld[30;83H1[13;21H[?25h[?25l
+        [14;9H[K[30;80H4,5 [14;5H[?25h[?25l[30;82H6[14;6H[?25h[?25l[30;82H7[14;7H[?25h[?25le[30;82H8[14;8H[?25h[?25ln[30;82H9[14;9H[?25h[?25la[30;82H10[14;10H[?25h[?25lb[30;83H1[14;11H[?25h[?25ll[30;83H2[14;12H[?25h[?25le[30;83H3[14;13H[?25h[?25ld[30;83H4[14;14H[?25h[?25l[14;7H[1m[96menabled[m[38;5;224m:[m[30;83H5[14;15H[?25h[?25l[30;83H6[14;16H[?25h[?25lt[30;83H7[14;17H[?25h[?25lr[30;83H8[14;18H[?25h[?25lu[30;83H9[14;19H[?25h[?25l[95mtrue[m[30;82H20[14;20H[?25h[30;1H[K[14;19H[?25l[30;69H^[[14;19H[30;69H  [14;20H[30;79H14,19[9CAll[14;19H[?25h[?25l[30;69H:[14;19H[30;69H[K[30;1H:[?25hwq![?25l[?2004l[>4;m"app_install.yml" [New] 14L, 261B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# ansbile[K[K[Kilr[Ke[K[K[Kle[K[K[Kil[Kble-playbook --syntax-check app_install.yml[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[29Pvi[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cansible-playbook  first_pb.yml[12Pvi app_install.yml[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kne[Kgnix
+[?2004lbash: ngnix: command not found
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# ngnixvi app_install.ymlngnix[Kvi app_install.ymlansible-playbook  first_pb.yml--syntax-check first_pb.yml[1Pfirst_pb.yml[1Pfirst_pb.yml[1Pfirst_pb.yml[1Pfirst_pb.yml[1Pfirst_pb.yml[1Pfirst_pb.yml[1Pfirst_pb.yml[1Pfirst_pb.yml[1Pfirst_pb.yml[1Pfirst_pb.yml[1Pfirst_pb.yml[1Pfirst_pb.yml[1Pfirst_pb.yml[1Pfirst_pb.yml[1Pfirst_pb.yml[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit[0m
+[1;35mlocalhost does not match 'all'[0m
+
+PLAY [First Basic Playbook] ********************************************************************
+
+TASK [Gathering Facts] *************************************************************************
+[0;32mok: [localhost][0m
+
+TASK [Test connectivity] ***********************************************************************
+[0;32mok: [localhost][0m
+
+TASK [Print Output] ****************************************************************************
+[0;32mok: [localhost] => {[0m
+[0;32m    "msg": "Alright!"[0m
+[0;32m}[0m
+
+PLAY RECAP *************************************************************************************
+[0;32mlocalhost[0m                  : [0;32mok=3   [0m changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# su[Ksy[K[K[Kngnig[Kc[Kv[Kx
+[?2004lbash: ngnix: command not found
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# ngnixansible-playbook first_pb.ymlngnix[Kvi app_install.ymlansible-playbook  first_pb.yml--syntax-check first_pb.yml[C[1P_pb.yml[1P_pb.yml[1P_pb.yml[1P_pb.yml[1P_pb.yml[C[C[C[1P.yml[1P.yml[1P.ymls.ymlp.ymlp.yml[1P.yml[1P.yml[1P.ymla.ymlp.ymlp.yml_.ymli.ymln.ymls.ymlt.ymla.ymll.ymll.yml[C[C[C[C
+[?2004l[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit[0m
+[1;35mlocalhost does not match 'all'[0m
+
+playbook: app_install.yml
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# ansible-playbook --syntax-check app_install.yml[C[1Papp_install.yml[1Papp_install.yml[1Papp_install.yml[1Papp_install.yml[1Papp_install.yml[1Papp_install.yml[1Papp_install.yml[1Papp_install.yml[1Ppp_install.yml[1Papp_install.yml[1Papp_install.yml[1Papp_install.yml[1Papp_install.yml[1Papp_install.yml[1Papp_install.yml
+[?2004l[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit[0m
+[1;35mlocalhost does not match 'all'[0m
+
+PLAY [Install and Start the service] ***********************************************************
+
+TASK [Gathering Facts] *************************************************************************
+[0;32mok: [localhost][0m
+
+TASK [Installing ngnix] ************************************************************************
+[0;31mfatal: [localhost]: FAILED! => {"changed": false, "failures": ["No package ngnix available."], "msg": "Failed to install some of the specified packages", "rc": 1, "results": []}[0m
+
+PLAY RECAP *************************************************************************************
+[0;31mlocalhost[0m                  : [0;32mok=1   [0m changed=0    unreachable=0    [0;31mfailed=1   [0m skipped=0    rescued=0    ignored=0   
+
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# ansible-playbook app_install.yml--syntax-check app_install.yml[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cngnix[Kansible-playbook first_pb.ymlngnix[Kvi app_install.yml
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;30r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[30;1H"app_install.yml" 14L, 261B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[35m---[m
+[38;5;130m- [m[36mname[m[35m:[m Install and Start the service[2;38H[K[3;1H  [36mhosts[m[35m:[m localhost[3;19H[K[5;3H[36mtasks[m[35m:[m
+  [38;5;130m- [m[36mname[m[35m:[m Installing ngnix
+    [36myum[m[35m:[m[8;7H[36mname[m[35m:[m ngnix[9;7H[36mstate[m[35m:[m present
+  [38;5;130m- [m[36mname[m[35m:[m Starting the ngnix service
+    [36mservice[m[35m:[m[12;7H[36mname[m[35m:[m ngnix[13;7H[36mstate[m[35m:[m started[14;7H[36menabled[m[35m:[m [31mtrue[m
+[94m~                                                                                               [16;1H~                                                                                               [17;1H~                                                                                               [18;1H~                                                                                               [19;1H~                                                                                               [20;1H~                                                                                               [21;1H~                                                                                               [22;1H~                                                                                               [23;1H~                                                                                               [24;1H~                                                                                               [25;1H~                                                                                               [26;1H~                                                                                               [27;1H~                                                                                               [28;1H~                                                                                               [29;1H~                                                                                               [m[30;79H14,19[9CAll[14;19H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[27m[23m[29m[m[H[2J[?25l[1;1H[38;5;81m---[m
+[93m- [m[1m[96mname[m[38;5;224m:[m Install and Start the service
+  [1m[96mhosts[m[38;5;224m:[m localhost
+
+  [1m[96mtasks[m[38;5;224m:[m
+  [93m- [m[1m[96mname[m[38;5;224m:[m Installing ngnix
+    [1m[96myum[m[38;5;224m:[m[8;7H[1m[96mname[m[38;5;224m:[m ngnix[9;7H[1m[96mstate[m[38;5;224m:[m present
+  [93m- [m[1m[96mname[m[38;5;224m:[m Starting the ngnix service
+    [1m[96mservice[m[38;5;224m:[m[12;7H[1m[96mname[m[38;5;224m:[m ngnix[13;7H[1m[96mstate[m[38;5;224m:[m started[14;7H[1m[96menabled[m[38;5;224m:[m [95mtrue[m
+[94m~                                                                                               [16;1H~                                                                                               [17;1H~                                                                                               [18;1H~                                                                                               [19;1H~                                                                                               [20;1H~                                                                                               [21;1H~                                                                                               [22;1H~                                                                                               [23;1H~                                                                                               [24;1H~                                                                                               [25;1H~                                                                                               [26;1H~                                                                                               [27;1H~                                                                                               [28;1H~                                                                                               [29;1H~                                                                                               [m[30;79H14,19[9CAll"app_install.yml" 14L, 261B[14;19H[?25h[?25l[30;69Hi[14;19H[30;69H [14;19H[30;1H[1m-- INSERT --[m[30;13H[K[30;79H14,19[9CAll[14;19H[?25h[?25l[30;80H3[13;19H[?25h[?25l[30;80H2,18[12;18H[?25h[?25l[30;80H1,13[11;13H[?25h[?25l[30;80H0,19[10;19H[?25h[?25l[30;80H1,13[11;13H[?25h[?25l[30;80H0,19[10;19H[?25h[?25l[30;79H9,19 [9;19H[?25h[?25l[30;79H8,18[8;18H[?25h[?25l[30;79H7,9 [7;9H[?25h[?25l[30;79H6,19[6;19H[?25h[?25l[30;81H20[6;20H[?25h[?25l[30;82H1[6;21H[?25h[?25l[30;82H2[6;22H[?25h[?25l[30;82H3[6;23H[?25h[?25l[30;82H4[6;24H[?25h[?25l[30;82H5[6;25H[?25h[?25lix[6;26H[K[30;82H4[6;24H[?25h[?25l[30;82H5[6;25H[?25h[?25lnx[30;82H6[6;26H[?25h[?25l[30;79H7,9 [7;9H[?25h[?25l[30;79H8,18[8;18H[?25h[?25l[30;82H7[8;17H[?25h[?25l[30;82H6[8;16H[?25h[?25lix[8;17H[K[30;82H5[8;15H[?25h[?25l[30;82H6[8;16H[?25h[?25lnx[30;82H7[8;17H[?25h[?25l[30;79H9[9;17H[?25h[?25l[30;79H10,17[10;17H[?25h[?25l[30;80H1,13[11;13H[?25h[?25l[30;80H2,17[12;17H[?25h[?25l[30;83H6[12;16H[?25h[?25l[30;83H7[12;17H[?25h[?25l[30;83H6[12;16H[?25h[?25lix[12;17H[K[30;83H5[12;15H[?25h[?25l[30;83H6[12;16H[?25h[?25lnx[30;83H7[12;17H[?25h[?25l[30;83H8[12;18H[?25h[30;1H[K[12;17H[?25l[30;69H^[[12;17H[30;69H  [12;18H[30;79H12,17[9CAll[12;17H[?25h[?25l[30;69H:[12;17H[30;69H[K[30;1H:[?25hwq![?25l[?2004l[>4;m"app_install.yml" 14L, 261B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# vi app_install.yml[14@ansible-playbook[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit[0m
+[1;35mlocalhost does not match 'all'[0m
+
+PLAY [Install and Start the service] ***********************************************************
+
+TASK [Gathering Facts] *************************************************************************
+[0;32mok: [localhost][0m
+
+TASK [Installing nginx] ************************************************************************
+[0;33mchanged: [localhost][0m
+
+TASK [Starting the ngnix service] **************************************************************
+[0;31mfatal: [localhost]: FAILED! => {"changed": false, "msg": "Unable to start service nginx: Job for nginx.service failed because the control process exited with error code.\nSee \"systemctl status nginx.service\" and \"journalctl -xeu nginx.service\" for details.\n"}[0m
+
+PLAY RECAP *************************************************************************************
+[0;31mlocalhost[0m                  : [0;32mok=2   [0m [0;33mchanged=1   [0m unreachable=0    [0;31mfailed=1   [0m skipped=0    rescued=0    ignored=0   
+
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# ansible-playbook app_install.yml[14Pvi[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kngnig[Kx[K[K[Kinx --version
+[?2004lnginx: invalid option: "-"
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# nginx --version[1Pversion
+[?2004lnginx version: nginx/1.22.1
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# nginx -version-versionansible-playbook app_install.yml[14Pvi[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;30r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[30;1H"app_install.yml" 14L, 261B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[35m---[m
+[38;5;130m- [m[36mname[m[35m:[m Install and Start the service[2;38H[K[3;1H  [36mhosts[m[35m:[m localhost[3;19H[K[5;3H[36mtasks[m[35m:[m
+  [38;5;130m- [m[36mname[m[35m:[m Installing nginx
+    [36myum[m[35m:[m[8;7H[36mname[m[35m:[m nginx[9;7H[36mstate[m[35m:[m present
+  [38;5;130m- [m[36mname[m[35m:[m Starting the ngnix service
+    [36mservice[m[35m:[m[12;7H[36mname[m[35m:[m nginx[13;7H[36mstate[m[35m:[m started[14;7H[36menabled[m[35m:[m [31mtrue[m
+[94m~                                                                                               [16;1H~                                                                                               [17;1H~                                                                                               [18;1H~                                                                                               [19;1H~                                                                                               [20;1H~                                                                                               [21;1H~                                                                                               [22;1H~                                                                                               [23;1H~                                                                                               [24;1H~                                                                                               [25;1H~                                                                                               [26;1H~                                                                                               [27;1H~                                                                                               [28;1H~                                                                                               [29;1H~                                                                                               [m[30;79H12,17[9CAll[12;17H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[27m[23m[29m[m[H[2J[?25l[1;1H[38;5;81m---[m
+[93m- [m[1m[96mname[m[38;5;224m:[m Install and Start the service
+  [1m[96mhosts[m[38;5;224m:[m localhost
+
+  [1m[96mtasks[m[38;5;224m:[m
+  [93m- [m[1m[96mname[m[38;5;224m:[m Installing nginx
+    [1m[96myum[m[38;5;224m:[m[8;7H[1m[96mname[m[38;5;224m:[m nginx[9;7H[1m[96mstate[m[38;5;224m:[m present
+  [93m- [m[1m[96mname[m[38;5;224m:[m Starting the ngnix service
+    [1m[96mservice[m[38;5;224m:[m[12;7H[1m[96mname[m[38;5;224m:[m nginx[13;7H[1m[96mstate[m[38;5;224m:[m started[14;7H[1m[96menabled[m[38;5;224m:[m [95mtrue[m
+[94m~                                                                                               [16;1H~                                                                                               [17;1H~                                                                                               [18;1H~                                                                                               [19;1H~                                                                                               [20;1H~                                                                                               [21;1H~                                                                                               [22;1H~                                                                                               [23;1H~                                                                                               [24;1H~                                                                                               [25;1H~                                                                                               [26;1H~                                                                                               [27;1H~                                                                                               [28;1H~                                                                                               [29;1H~                                                                                               [m[30;79H12,17[9CAll"app_install.yml" 14L, 261B[12;17H[?25h[?25l[30;69Hi[12;17H[30;69H [12;17H[30;1H[1m-- INSERT --[m[30;13H[K[30;79H12,17[9CAll[12;17H[?25h[?25l[30;80H1,13[11;13H[?25h[?25l[30;80H0,17[10;17H[?25h[?25l[30;79H9,17 [9;17H[?25h[?25l[30;82H8[9;18H[?25h[?25l[30;82H9[9;19H[?25h[?25l[30;79H10,19[10;19H[?25h[?25l[30;82H20[10;20H[?25h[?25l[30;83H1[10;21H[?25h[?25l[30;83H2[10;22H[?25h[?25l[30;83H3[10;23H[?25h[?25l[30;83H4[10;24H[?25h[?25l[30;83H5[10;25H[?25h[?25l[30;83H6[10;26H[?25h[?25l[30;83H7[10;27H[?25h[?25lix service[10;36H[K[30;83H6[10;26H[?25h[?25l[30;83H7[10;27H[?25h[?25lnx service[30;83H8[10;28H[?25h[?25l[30;83H9[10;29H[?25h[?25l[30;82H30[10;30H[?25h[?25l[30;83H1[10;31H[?25h[?25l[30;83H2[10;32H[?25h[?25l[30;83H3[10;33H[?25h[?25l[30;83H4[10;34H[?25h[?25l[30;83H5[10;35H[?25h[?25l[30;83H6[10;36H[?25h[?25l[30;83H7[10;37H[?25h[30;1H[K[10;36H[?25l[30;69H^[[10;36H[30;69H  [10;37H[30;79H10,36[9CAll[10;36H[?25h[?25l[30;69H:[10;36H[30;69H[K[30;1H:[?25hwq![?25l[?2004l[>4;m"app_install.yml" 14L, 261B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# vi app_install.yml[4Pnginx -version
+[?2004lnginx version: nginx/1.22.1
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# nginx -versionvi app_install.yml[4Pnginx -version-version[1Pversionvi app_install.yml[4Pnginx -version[Knginx -versionvi app_install.yml[4Pnginx -version-versionansible-playbook app_install.yml
+[?2004l[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit[0m
+[1;35mlocalhost does not match 'all'[0m
+
+PLAY [Install and Start the service] ***********************************************************
+
+TASK [Gathering Facts] *************************************************************************
+[0;32mok: [localhost][0m
+
+TASK [Installing nginx] ************************************************************************
+[0;32mok: [localhost][0m
+
+TASK [Starting the nginx service] **************************************************************
+[0;31mfatal: [localhost]: FAILED! => {"changed": false, "msg": "Unable to start service nginx: Job for nginx.service failed because the control process exited with error code.\nSee \"systemctl status nginx.service\" and \"journalctl -xeu nginx.service\" for details.\n"}[0m
+
+PLAY RECAP *************************************************************************************
+[0;31mlocalhost[0m                  : [0;32mok=2   [0m changed=0    unreachable=0    [0;31mfailed=1   [0m skipped=0    rescued=0    ignored=0   
+
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# ansible-playbook app_install.yml[18Pnginx -versionansible-playbook app_install.yml[18Pnginx -versionvi app_install.yml[4Pnginx -version-versionansible-playbook app_install.yml[C app_install.yml- app_install.yml- app_install.ymls app_install.ymly app_install.ymlb app_install.ymlr app_install.yml[1P app_install.yml[1P app_install.ymln app_install.ymlt app_install.ymla app_install.ymlx app_install.yml- app_install.ymlc app_install.ymlh app_install.ymle app_install.ymlc app_install.ymlk app_install.yml
+[?2004l[1;35m[WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit[0m
+[1;35mlocalhost does not match 'all'[0m
+
+playbook: app_install.yml
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# systemctl status nginx.service
+[?2004l[?1h=[0;1;31m×[0m nginx.service - The nginx HTTP and reverse proxy server[m
+     Loaded: loaded (]8;;file://mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal/usr/lib/systemd/system/nginx.service/usr/lib/systemd/system/nginx.service]8;;; [0;1;32menabled[0m; preset: [0;1;38;5;185mdisabled[0m)[m
+     Active: [0;1;31mfailed[0m (Result: exit-code) since Wed 2024-02-14 08:05:11 UTC; 2min 1s ago[m
+    Process: 7446 ExecStartPre=/usr/bin/rm -f /run/nginx.pid (code=exited, status=0/SUCCESS)[m
+    Process: 7447 ExecStartPre=/usr/sbin/nginx -t (code=exited, status=0/SUCCESS)[m
+    Process: 7448 ExecStart=/usr/sbin/nginx [0;1;31m(code=exited, status=1/FAILURE)[0m[m
+        CPU: 33ms[m
+[m
+Feb 14 08:05:10 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[7448]: ngi[m[7m>[27m
+Feb 14 08:05:10 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[7448]: ngi[m[7m>[27m
+Feb 14 08:05:10 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[7448]: ngi[m[7m>[27m
+Feb 14 08:05:10 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[7448]: ngi[m[7m>[27m
+Feb 14 08:05:11 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[7448]: ngi[m[7m>[27m
+Feb 14 08:05:11 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[7448]: ngi[m[7m>[27m
+Feb 14 08:05:11 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[7448]: ngi[m[7m>[27m
+Feb 14 08:05:11 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal systemd[1]: [0;1;39m[0;1;31m[0;1;39mngin[m[7m>[27m
+Feb 14 08:05:11 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mngin[m[7m>[27m
+Feb 14 08:05:11 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal systemd[1]: [0;1;31m[0;1;39m[0;1;31mFail[m[7m>[27m
+[7mlines 1-18/18 (END)[27m[K[K[?1l>
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# systemctl status nginx.service[C[1P nginx.service[1P nginx.service[1P nginx.servicee nginx.service[1P nginx.servicer nginx.servicet nginx.service
+[?2004l[0;1;31mJob for nginx.service failed because the control process exited with error code.[0m
+[0;1;31mSee "systemctl status nginx.service" and "journalctl -xeu nginx.service" for details.[0m
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# systemctl start nginx.service[1P nginx.service[1P nginx.service[1P nginx.service[1P nginx.servicee nginx.service[1P nginx.service[1P nginx.servicee nginx.servicen nginx.servicea nginx.serviceb nginx.servicel nginx.servicee nginx.service
+[?2004l]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# systemctl enable nginx.service[1Pstart[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@tus[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?1h=[0;1;31m×[0m nginx.service - The nginx HTTP and reverse proxy server[m
+     Loaded: loaded (]8;;file://mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal/usr/lib/systemd/system/nginx.service/usr/lib/systemd/system/nginx.service]8;;; [0;1;32menabled[0m; preset: [0;1;38;5;185mdisabled[0m)[m
+     Active: [0;1;31mfailed[0m (Result: exit-code) since Wed 2024-02-14 08:07:36 UTC; 47s ago[m
+        CPU: 32ms[m
+[m
+Feb 14 08:07:35 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[7539]: ngi[m[7m>[27m
+Feb 14 08:07:35 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[7539]: ngi[m[7m>[27m
+Feb 14 08:07:35 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[7539]: ngi[m[7m>[27m
+Feb 14 08:07:35 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[7539]: ngi[m[7m>[27m
+Feb 14 08:07:36 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[7539]: ngi[m[7m>[27m
+Feb 14 08:07:36 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[7539]: ngi[m[7m>[27m
+Feb 14 08:07:36 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[7539]: ngi[m[7m>[27m
+Feb 14 08:07:36 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal systemd[1]: [0;1;39m[0;1;31m[0;1;39mngin[m[7m>[27m
+Feb 14 08:07:36 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mngin[m[7m>[27m
+Feb 14 08:07:36 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal systemd[1]: [0;1;31m[0;1;39m[0;1;31mFail[m[7m>[27m
+[7mlines 1-15/15 (END)[27m[K[K[?1l>
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# systemctl status nginx.serviceenable[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pstart[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[0;1;31mJob for nginx.service failed because the control process exited with error code.[0m
+[0;1;31mSee "systemctl status nginx.service" and "journalctl -xeu nginx.service" for details.[0m
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# systemctl start nginx.service[1@tus[C[C[C[C[C[C[C[C[C[C[C[C[C[Cenable[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pstart[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@tus[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?1h=[0;1;31m×[0m nginx.service - The nginx HTTP and reverse proxy server[m
+     Loaded: loaded (]8;;file://mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal/usr/lib/systemd/system/nginx.service/usr/lib/systemd/system/nginx.service]8;;; [0;1;32menabled[0m; preset: [0;1;38;5;185mdisabled[0m)[m
+     Active: [0;1;31mfailed[0m (Result: exit-code) since Wed 2024-02-14 08:08:35 UTC; 13s ago[m
+    Process: 7591 ExecStartPre=/usr/bin/rm -f /run/nginx.pid (code=exited, status=0/SUCCESS)[m
+    Process: 7592 ExecStartPre=/usr/sbin/nginx -t (code=exited, status=0/SUCCESS)[m
+    Process: 7593 ExecStart=/usr/sbin/nginx [0;1;31m(code=exited, status=1/FAILURE)[0m[m
+        CPU: 31ms[m
+[m
+Feb 14 08:08:33 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[7593]: ngi[m[7m>[27m
+Feb 14 08:08:33 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[7593]: ngi[m[7m>[27m
+Feb 14 08:08:34 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[7593]: ngi[m[7m>[27m
+Feb 14 08:08:34 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[7593]: ngi[m[7m>[27m
+Feb 14 08:08:34 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[7593]: ngi[m[7m>[27m
+Feb 14 08:08:34 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[7593]: ngi[m[7m>[27m
+Feb 14 08:08:35 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[7593]: ngi[m[7m>[27m
+Feb 14 08:08:35 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal systemd[1]: [0;1;39m[0;1;31m[0;1;39mngin[m[7m>[27m
+Feb 14 08:08:35 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mngin[m[7m>[27m
+Feb 14 08:08:35 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal systemd[1]: [0;1;31m[0;1;39m[0;1;31mFail[m[7m>[27m
+[7mlines 1-18/18 (END)[27m[K
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# [K[?1l>qq[K[K^C[?2004l[?2004h[?2004l
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# systemctl status nginx.service[1Prt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@tus[C[C[C[C[C[C[C[C[C[C[C[C[C[Cenable[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pstart[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@tus[C[C[C[C[C[C[C[C[C[C[C[C[C[Cansible-playbook --syntax-check app_install.yml[15Papp_install.yml[18Pnginx -versionansible-playbook app_install.yml--syntax-check app_install.yml[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Psystemctl status nginx.service[1Prt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@enable[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstatus[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Prt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@tus[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksystemctl status nginx.service[1Prt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@tus[C[C[C[C[C[C[C[C[C[C[C[C[C[Cenable[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pstart[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@tus[C[C[C[C[C[C[C[C[C[C[C[C[C[Cansible-playbook --syntax-check app_install.yml[15Papp_install.yml[18Pnginx -versionvi app_install.yml
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;30r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[30;1H"app_install.yml" 14L, 261B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[35m---[m
+[38;5;130m- [m[36mname[m[35m:[m Install and Start the service[2;38H[K[3;1H  [36mhosts[m[35m:[m localhost[3;19H[K[5;3H[36mtasks[m[35m:[m
+  [38;5;130m- [m[36mname[m[35m:[m Installing nginx
+    [36myum[m[35m:[m[8;7H[36mname[m[35m:[m nginx[9;7H[36mstate[m[35m:[m present
+  [38;5;130m- [m[36mname[m[35m:[m Starting the nginx service
+    [36mservice[m[35m:[m[12;7H[36mname[m[35m:[m nginx[13;7H[36mstate[m[35m:[m started[14;7H[36menabled[m[35m:[m [31mtrue[m
+[94m~                                                                                               [16;1H~                                                                                               [17;1H~                                                                                               [18;1H~                                                                                               [19;1H~                                                                                               [20;1H~                                                                                               [21;1H~                                                                                               [22;1H~                                                                                               [23;1H~                                                                                               [24;1H~                                                                                               [25;1H~                                                                                               [26;1H~                                                                                               [27;1H~                                                                                               [28;1H~                                                                                               [29;1H~                                                                                               [m[30;79H10,36[9CAll[10;36H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[27m[23m[29m[m[H[2J[?25l[1;1H[38;5;81m---[m
+[93m- [m[1m[96mname[m[38;5;224m:[m Install and Start the service
+  [1m[96mhosts[m[38;5;224m:[m localhost
+
+  [1m[96mtasks[m[38;5;224m:[m
+  [93m- [m[1m[96mname[m[38;5;224m:[m Installing nginx
+    [1m[96myum[m[38;5;224m:[m[8;7H[1m[96mname[m[38;5;224m:[m nginx[9;7H[1m[96mstate[m[38;5;224m:[m present
+  [93m- [m[1m[96mname[m[38;5;224m:[m Starting the nginx service
+    [1m[96mservice[m[38;5;224m:[m[12;7H[1m[96mname[m[38;5;224m:[m nginx[13;7H[1m[96mstate[m[38;5;224m:[m started[14;7H[1m[96menabled[m[38;5;224m:[m [95mtrue[m
+[94m~                                                                                               [16;1H~                                                                                               [17;1H~                                                                                               [18;1H~                                                                                               [19;1H~                                                                                               [20;1H~                                                                                               [21;1H~                                                                                               [22;1H~                                                                                               [23;1H~                                                                                               [24;1H~                                                                                               [25;1H~                                                                                               [26;1H~                                                                                               [27;1H~                                                                                               [28;1H~                                                                                               [29;1H~                                                                                               [m[30;79H10,36[9CAll"app_install.yml" 14L, 261B[10;36H[?25h[?25l[30;69H:[10;36H[30;1H[K[30;1H:[?25hq![?25l[?2004l[>4;m[23;2t[23;1t[30;1H[K[30;1H[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# re[Km -R ni[K[K[K[K[K[K[K[Kinis[K[K[K[Kunisral[K[K[K[Knstall [K[K[K[K[K[K[K[K[K[Kyum remove nginx
+[?2004lDependencies resolved.
+================================================================================================
+ Package                   Architecture    Version                    Repository           Size
+================================================================================================
+Removing:
+ [31mnginx                    (B[m x86_64          1:1.22.1-2.el9             @appstream          152 k
+Removing unused dependencies:
+ [31mnginx-core               (B[m x86_64          1:1.22.1-2.el9             @appstream          1.6 M
+ [31mnginx-filesystem         (B[m noarch          1:1.22.1-2.el9             @appstream            0  
+
+Transaction Summary
+================================================================================================
+Remove  3 Packages
+
+Freed space: 1.8 M
+Is this ok [y/N]: y
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :  [======================                                             ] 1/1  Preparing        :  [============================================                       ] 1/1  Preparing        :                                                                        1/1 
+  Running scriptlet: nginx-1:1.22.1-2.el9.x86_64                                            1/3 
+Removed "/etc/systemd/system/multi-user.target.wants/nginx.service".
+
+  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [                                        ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [==                                      ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [====                                    ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [======                                  ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [=========                               ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [===========                             ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [==============                          ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [================                        ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [==================                      ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [====================                    ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [=======================                 ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [=========================               ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [============================            ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [==============================          ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [================================        ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [===================================     ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [=====================================   ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64                                            1/3 
+  Running scriptlet: nginx-1:1.22.1-2.el9.x86_64                                            1/3 
+  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [                                   ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [=                                  ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [==                                 ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [===                                ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [====                               ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [=====                              ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [======                             ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [=======                            ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [========                           ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [==========                         ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [===========                        ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [============                       ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [=============                      ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [==============                     ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [=================                  ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [==================                 ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [====================               ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [=====================              ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [======================             ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [=======================            ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [========================           ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [=========================          ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [==========================         ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [============================       ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [=============================      ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [==============================     ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [===============================    ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [================================   ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [=================================  ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64                                       2/3 
+  Erasing          : nginx-filesystem-1:1.22.1-2.el9.n [                                  ] 3/3  Erasing          : nginx-filesystem-1:1.22.1-2.el9.n [====                              ] 3/3  Erasing          : nginx-filesystem-1:1.22.1-2.el9.n [=========                         ] 3/3  Erasing          : nginx-filesystem-1:1.22.1-2.el9.n [==============                    ] 3/3  Erasing          : nginx-filesystem-1:1.22.1-2.el9.n [===================               ] 3/3  Erasing          : nginx-filesystem-1:1.22.1-2.el9.n [========================          ] 3/3  Erasing          : nginx-filesystem-1:1.22.1-2.el9.n [============================      ] 3/3  Erasing          : nginx-filesystem-1:1.22.1-2.el9.noarch                                 3/3 
+  Running scriptlet: nginx-filesystem-1:1.22.1-2.el9.noarch                                 3/3 
+  Verifying        : nginx-1:1.22.1-2.el9.x86_64                                            1/3 
+  Verifying        : nginx-core-1:1.22.1-2.el9.x86_64                                       2/3 
+  Verifying        : nginx-filesystem-1:1.22.1-2.el9.noarch                                 3/3 
+
+Removed:
+  nginx-1:1.22.1-2.el9.x86_64                       nginx-core-1:1.22.1-2.el9.x86_64           
+  nginx-filesystem-1:1.22.1-2.el9.noarch           
+
+Complete!
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# hgnix
+[?2004lbash: hgnix: command not found
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# hgnix[K[K[K[K[Knginx
+[?2004lbash: /sbin/nginx: No such file or directory
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# nginxhgnixyum remove nginxvi app_install.yml
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;30r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[30;1H"app_install.yml" 14L, 261B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[35m---[m
+[38;5;130m- [m[36mname[m[35m:[m Install and Start the service[2;38H[K[3;1H  [36mhosts[m[35m:[m localhost[3;19H[K[5;3H[36mtasks[m[35m:[m
+  [38;5;130m- [m[36mname[m[35m:[m Installing nginx
+    [36myum[m[35m:[m[8;7H[36mname[m[35m:[m nginx[9;7H[36mstate[m[35m:[m present
+  [38;5;130m- [m[36mname[m[35m:[m Starting the nginx service
+    [36mservice[m[35m:[m[12;7H[36mname[m[35m:[m nginx[13;7H[36mstate[m[35m:[m started[14;7H[36menabled[m[35m:[m [31mtrue[m
+[94m~                                                                                               [16;1H~                                                                                               [17;1H~                                                                                               [18;1H~                                                                                               [19;1H~                                                                                               [20;1H~                                                                                               [21;1H~                                                                                               [22;1H~                                                                                               [23;1H~                                                                                               [24;1H~                                                                                               [25;1H~                                                                                               [26;1H~                                                                                               [27;1H~                                                                                               [28;1H~                                                                                               [29;1H~                                                                                               [m[30;79H10,36[9CAll[10;36H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[27m[23m[29m[m[H[2J[?25l[1;1H[38;5;81m---[m
+[93m- [m[1m[96mname[m[38;5;224m:[m Install and Start the service
+  [1m[96mhosts[m[38;5;224m:[m localhost
+
+  [1m[96mtasks[m[38;5;224m:[m
+  [93m- [m[1m[96mname[m[38;5;224m:[m Installing nginx
+    [1m[96myum[m[38;5;224m:[m[8;7H[1m[96mname[m[38;5;224m:[m nginx[9;7H[1m[96mstate[m[38;5;224m:[m present
+  [93m- [m[1m[96mname[m[38;5;224m:[m Starting the nginx service
+    [1m[96mservice[m[38;5;224m:[m[12;7H[1m[96mname[m[38;5;224m:[m nginx[13;7H[1m[96mstate[m[38;5;224m:[m started[14;7H[1m[96menabled[m[38;5;224m:[m [95mtrue[m
+[94m~                                                                                               [16;1H~                                                                                               [17;1H~                                                                                               [18;1H~                                                                                               [19;1H~                                                                                               [20;1H~                                                                                               [21;1H~                                                                                               [22;1H~                                                                                               [23;1H~                                                                                               [24;1H~                                                                                               [25;1H~                                                                                               [26;1H~                                                                                               [27;1H~                                                                                               [28;1H~                                                                                               [29;1H~                                                                                               [m[30;79H10,36[9CAll"app_install.yml" 14L, 261B[10;36H[?25h[?25l[30;69H:[10;36H[30;1H[K[30;1H:[?25hq![?25l[?2004l[>4;m[23;2t[23;1t[30;1H[K[30;1H[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# yum install nginx
+[?2004lLast metadata expiration check: 1:05:47 ago on Wed 14 Feb 2024 07:12:19 AM UTC.
+Dependencies resolved.
+================================================================================================
+ Package                    Architecture     Version                  Repository           Size
+================================================================================================
+Installing:
+ [1m[32mnginx                     (B[m x86_64           1:1.22.1-2.el9           appstream            39 k
+Installing dependencies:
+ [1m[32mnginx-core                (B[m x86_64           1:1.22.1-2.el9           appstream           576 k
+ [1m[32mnginx-filesystem          (B[m noarch           1:1.22.1-2.el9           appstream            12 k
+
+Transaction Summary
+================================================================================================
+Install  3 Packages
+
+Total size: 628 k
+Installed size: 1.8 M
+Is this ok [y/N]: y
+Downloading Packages:
+[SKIPPED] nginx-1.22.1-2.el9.x86_64.rpm: Already downloaded                                    
+[SKIPPED] nginx-core-1.22.1-2.el9.x86_64.rpm: Already downloaded                               
+[SKIPPED] nginx-filesystem-1.22.1-2.el9.noarch.rpm: Already downloaded                         
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :  [======================                                             ] 1/1  Preparing        :  [============================================                       ] 1/1  Preparing        :                                                                        1/1 
+  Running scriptlet: nginx-filesystem-1:1.22.1-2.el9.noarch                                 1/3 
+  Installing       : nginx-filesystem-1:1.22.1-2.el9.n [                                  ] 1/3  Installing       : nginx-filesystem-1:1.22.1-2.el9.n [===                               ] 1/3  Installing       : nginx-filesystem-1:1.22.1-2.el9.n [=======                           ] 1/3  Installing       : nginx-filesystem-1:1.22.1-2.el9.n [============                      ] 1/3  Installing       : nginx-filesystem-1:1.22.1-2.el9.n [================                  ] 1/3  Installing       : nginx-filesystem-1:1.22.1-2.el9.n [=====================             ] 1/3  Installing       : nginx-filesystem-1:1.22.1-2.el9.n [=========================         ] 1/3  Installing       : nginx-filesystem-1:1.22.1-2.el9.n [=============================     ] 1/3  Installing       : nginx-filesystem-1:1.22.1-2.el9.noarch                                 1/3 
+  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [                                   ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [=                                  ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [==                                 ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [===                                ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [====                               ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [=====                              ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [======                             ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [=======                            ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [========                           ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [=========                          ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [==========                         ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [===========                        ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [============                       ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [=============                      ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [==============                     ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [===============                    ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [================                   ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [=================                  ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [==================                 ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [===================                ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [====================               ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [=====================              ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [======================             ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [=======================            ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [========================           ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [=========================          ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [==========================         ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [===========================        ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [============================       ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [=============================      ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [==============================     ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [===============================    ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [================================   ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [=================================  ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64 [================================== ] 2/3  Installing       : nginx-core-1:1.22.1-2.el9.x86_64                                       2/3 
+  Installing       : nginx-1:1.22.1-2.el9.x86_64 [                                        ] 3/3  Installing       : nginx-1:1.22.1-2.el9.x86_64 [=                                       ] 3/3  Installing       : nginx-1:1.22.1-2.el9.x86_64 [==                                      ] 3/3  Installing       : nginx-1:1.22.1-2.el9.x86_64 [====                                    ] 3/3  Installing       : nginx-1:1.22.1-2.el9.x86_64 [============                            ] 3/3  Installing       : nginx-1:1.22.1-2.el9.x86_64 [=====================                   ] 3/3  Installing       : nginx-1:1.22.1-2.el9.x86_64 [=============================           ] 3/3  Installing       : nginx-1:1.22.1-2.el9.x86_64 [=====================================   ] 3/3  Installing       : nginx-1:1.22.1-2.el9.x86_64 [======================================= ] 3/3  Installing       : nginx-1:1.22.1-2.el9.x86_64                                            3/3 
+  Running scriptlet: nginx-1:1.22.1-2.el9.x86_64                                            3/3 
+  Verifying        : nginx-1:1.22.1-2.el9.x86_64                                            1/3 
+  Verifying        : nginx-core-1:1.22.1-2.el9.x86_64                                       2/3 
+  Verifying        : nginx-filesystem-1:1.22.1-2.el9.noarch                                 3/3 
+
+Installed:
+  nginx-1:1.22.1-2.el9.x86_64                       nginx-core-1:1.22.1-2.el9.x86_64           
+  nginx-filesystem-1:1.22.1-2.el9.noarch           
+
+Complete!
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# syte[K[K[K[Ksu[Kystemctl enable nginx.service
+[?2004lCreated symlink /etc/systemd/system/multi-user.target.wants/nginx.service → /usr/lib/systemd/system/nginx.service.
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# systemctl enable nginx.service[1P nginx.service[1P nginx.service[1P nginx.service[1P nginx.service[1P nginx.service[1P nginx.services nginx.servicet nginx.servicea nginx.servicet nginx.serviceu nginx.services nginx.service
+[?2004l[?1h=[0;1;31m×[0m nginx.service - The nginx HTTP and reverse proxy server[m
+     Loaded: loaded (]8;;file://mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal/usr/lib/systemd/system/nginx.service/usr/lib/systemd/system/nginx.service]8;;; [0;1;32menabled[0m; preset: [0;1;38;5;185mdisabled[0m)[m
+     Active: [0;1;31mfailed[0m (Result: exit-code) since Wed 2024-02-14 08:08:35 UTC; 10min ago[m
+        CPU: 31ms[m
+[m
+Feb 14 08:08:33 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[7593]: ngi[m[7m>[27m
+Feb 14 08:08:33 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[7593]: ngi[m[7m>[27m
+Feb 14 08:08:34 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[7593]: ngi[m[7m>[27m
+Feb 14 08:08:34 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[7593]: ngi[m[7m>[27m
+Feb 14 08:08:34 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[7593]: ngi[m[7m>[27m
+Feb 14 08:08:34 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[7593]: ngi[m[7m>[27m
+Feb 14 08:08:35 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[7593]: ngi[m[7m>[27m
+Feb 14 08:08:35 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal systemd[1]: [0;1;39m[0;1;31m[0;1;39mngin[m[7m>[27m
+Feb 14 08:08:35 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mngin[m[7m>[27m
+Feb 14 08:08:35 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal systemd[1]: [0;1;31m[0;1;39m[0;1;31mFail[m[7m>[27m
+[7mlines 1-15/15 (END)[27m[K[K[?1l>
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# systemctl status nginx.service[C[1P nginx.service[1P nginx.service[1P nginx.servicer nginx.servicet nginx.service
+[?2004l[0;1;31mJob for nginx.service failed because the control process exited with error code.[0m
+[0;1;31mSee "systemctl status nginx.service" and "journalctl -xeu nginx.service" for details.[0m
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# [K[root@mycentos-instance playbooks]# systemctl start nginx.service[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mjournalctl -xeu nginx.service[27mjournalctl -xeu nginx.service
+[?2004l[?1h=[KFeb 14 08:19:19 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[8083]: nginx: [emerg] bind() to 0.0[m[7m>[27m
+Feb 14 08:19:19 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[8083]: nginx: [emerg] bind() to [::[m[7m>[27m
+Feb 14 08:19:20 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[8083]: nginx: [emerg] bind() to 0.0[m[7m>[27m
+Feb 14 08:19:20 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[8083]: nginx: [emerg] bind() to [::[m[7m>[27m
+Feb 14 08:19:20 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[8083]: nginx: [emerg] bind() to 0.0[m[7m>[27m
+Feb 14 08:19:20 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[8083]: nginx: [emerg] bind() to [::[m[7m>[27m
+Feb 14 08:19:21 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[8083]: nginx: [emerg] still could n[m[7m>[27m
+Feb 14 08:19:21 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal systemd[1]: [0;1;39m[0;1;31m[0;1;39mnginx.service: Control proces[m[7m>[27m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m[m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m[m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m[m
+[0;38;5;245m░░[0m [0;32m[0m[m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit nginx.service has exited.[0m[m
+[0;38;5;245m░░[0m [0;32m[0m[m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m[m
+Feb 14 08:19:21 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnginx.service: Failed with re[m[7m>[27m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m[m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m[m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m[m
+[0;38;5;245m░░[0m [0;32m[0m[m
+[0;38;5;245m░░[0m [0;32mThe unit nginx.service has entered the 'failed' state with result 'exit-code'.[0m[m
+Feb 14 08:19:21 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start The nginx HTT[m[7m>[27m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit nginx.service has failed[0m[m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m[m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m[m
+[0;38;5;245m░░[0m [0;32m[0m[m
+[0;38;5;245m░░[0m [0;32mA start job for unit nginx.service has finished with a failure.[0m[m
+[0;38;5;245m░░[0m [0;32m[0m[m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 4653 and the job result is failed.[0m[m
+[7mlines 187-215/215 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 187-215/215 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 187-215/215 (END)[27m[K[K [KESCESC[KOO[KAA[K[HMFeb 14 08:19:19 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[8083]: nginx: [emerg] bind() to [::[m[7m>[27m
+[30;1H[K[7mlines 186-214/215 100%[27m[K[K [KESCESC[KOO[KBB[K[0;38;5;245m░░[0m [0;32mThe job identifier is 4653 and the job result is failed.[0m[m
+[7mlines 187-215/215 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 187-215/215 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 187-215/215 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 187-215/215 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 187-215/215 (END)[27m[K[K [KESCESC[KOO[KBB[K[K[7mlines 187-215/215 (END)[27m[K[H[2J[HFeb 14 08:19:19 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[8083]: nginx: [emerg] bind() to 0.0.0.0:80 failed (9[m[7m>[27m
+Feb 14 08:19:19 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[8083]: nginx: [emerg] bind() to [::]:80 failed (98: [m[7m>[27m
+Feb 14 08:19:20 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[8083]: nginx: [emerg] bind() to 0.0.0.0:80 failed (9[m[7m>[27m
+Feb 14 08:19:20 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[8083]: nginx: [emerg] bind() to [::]:80 failed (98: [m[7m>[27m
+Feb 14 08:19:20 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[8083]: nginx: [emerg] bind() to 0.0.0.0:80 failed (9[m[7m>[27m
+Feb 14 08:19:20 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[8083]: nginx: [emerg] bind() to [::]:80 failed (98: [m[7m>[27m
+Feb 14 08:19:21 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[8083]: nginx: [emerg] still could not bind()[m
+Feb 14 08:19:21 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal systemd[1]: [0;1;39m[0;1;31m[0;1;39mnginx.service: Control process exited, code=ex[m[7m>[27m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m[m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m[m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m[m
+[0;38;5;245m░░[0m [0;32m[0m[m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit nginx.service has exited.[0m[m
+[0;38;5;245m░░[0m [0;32m[0m[m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m[m
+Feb 14 08:19:21 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mnginx.service: Failed with result 'exit-code'.[0m[m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m[m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m[m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m[m
+[0;38;5;245m░░[0m [0;32m[0m[m
+[0;38;5;245m░░[0m [0;32mThe unit nginx.service has entered the 'failed' state with result 'exit-code'.[0m[m
+Feb 14 08:19:21 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start The nginx HTTP and reverse pro[m[7m>[27m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit nginx.service has failed[0m[m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m[m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m[m
+[0;38;5;245m░░[0m [0;32m[0m[m
+[0;38;5;245m░░[0m [0;32mA start job for unit nginx.service has finished with a failure.[0m[m
+[0;38;5;245m░░[0m [0;32m[0m[m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 4653 and the job result is failed.[0m[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 187-215/215 (END)[27m[K[K [KESCESC[KOO[KAA[K[HMFeb 14 08:19:19 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[8083]: nginx: [emerg] bind() to [::]:80 failed (98: [m[7m>[27m
+[34;1H[K[7mlines 186-215/215 (END)[27m[K[K [KESCESC[KOO[KAA[K[HMFeb 14 08:19:19 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[8083]: nginx: [emerg] bind() to 0.0.0.0:80 failed (9[m[7m>[27m
+[34;1H[K[7mlines 185-215/215 (END)[27m[K[K [KESCESC[KOO[KAA[K[HMFeb 14 08:19:18 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[8083]: nginx: [emerg] bind() to [::]:80 failed (98: [m[7m>[27m
+[34;1H[K[7mlines 184-215/215 (END)[27m[K[K [KESCESC[KOO[KAA[K[HMFeb 14 08:19:18 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[8083]: nginx: [emerg] bind() to 0.0.0.0:80 failed (9[m[7m>[27m
+[34;1H[K[7mlines 183-215/215 (END)[27m[K[K [KESCESC[KOO[KAA[K[HMFeb 14 08:19:18 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[8082]: nginx: configuration file /etc/nginx/nginx.co[m[7m>[27m
+[34;1H[K[7mlines 182-214/215 100%[27m[K[K [KESCESC[KOO[KAA[K[HMFeb 14 08:19:18 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal nginx[8082]: nginx: the configuration file /etc/nginx/ngin[m[7m>[27m
+[34;1H[K[7mlines 181-213/215 99%[27m[K[K [KESCESC[KOO[KAA[K[HM[0;38;5;245m░░[0m [0;32mThe job identifier is 4653.[0m[m
+[34;1H[K[7mlines 180-212/215 99%[27m[K[K [KESCESC[KOO[KAA[K[HM[0;38;5;245m░░[0m [0;32m[0m[m
+[34;1H[K[7mlines 179-211/215 99%[27m[K[K [KESCESC[KOO[KAA[K[HM[0;38;5;245m░░[0m [0;32mA start job for unit nginx.service has begun execution.[0m[m
+[34;1H[K[7mlines 178-210/215 98%[27m[K[K [KESCESC[KOO[KAA[K[HM[0;38;5;245m░░[0m [0;32m[0m[m
+[34;1H[K[7mlines 177-209/215 98%[27m[K[K [KESCESC[KOO[KAA[K[HM[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m[m
+[34;1H[K[7mlines 176-208/215 98%[27m[K[K [KESCESC[KOO[KAA[K[HM[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m[m
+[34;1H[K[7mlines 175-207/215 97%[27m[K[K [KESCESC[KOO[KAA[K[HM[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit nginx.service has begun execution[0m[m
+[34;1H[K[7mlines 174-206/215 97%[27m[K[K [KESCESC[KOO[KAA[K[HMFeb 14 08:19:18 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal systemd[1]: Starting The nginx HTTP and reverse proxy serv[m[7m>[27m
+[34;1H[K[7mlines 173-205/215 96%[27m[K[K [KESCESC[KOO[KAA[K[HM[0;38;5;245m░░[0m [0;32mThe job identifier is 4126 and the job result is failed.[0m[m
+[34;1H[K[7mlines 172-204/215 96%[27m[K[K [KESCESC[KOO[KAA[K[HM[0;38;5;245m░░[0m [0;32m[0m[m
+[34;1H[K[7mlines 171-203/215 96%[27m[K[K [KESCESC[KOO[KAA[K[HM[0;38;5;245m░░[0m [0;32mA start job for unit nginx.service has finished with a failure.[0m[m
+[34;1H[K[7mlines 170-202/215 96%[27m[K[K [KESCESC[KOO[KAA[K[HM[0;38;5;245m░░[0m [0;32m[0m[m
+[34;1H[K[7mlines 169-201/215 95%[27m[K[K [KESCESC[KOO[KAA[K[HM[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m[m
+[34;1H[K[7mlines 168-200/215 94%[27m[K[K [KESCESC[KOO[KAA[K[HM[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m[m
+[34;1H[K[7mlines 167-199/215 94%[27m[K[K [KESCESC[KOO[KAA[K[HM[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit nginx.service has failed[0m[m
+[34;1H[K[7mlines 166-198/215 94%[27m[K[K [KESCESC[KOO[KAA[K[HMFeb 14 08:08:35 mycentos-instance.asia-south2-c.c.blissful-jet-414204.internal systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start The nginx HTTP and reverse pro[m[7m>[27m
+[34;1H[K[7mlines 165-197/215 94%[27m[K[K [KESCESC[KOO[KAA[K[HM[0;38;5;245m░░[0m [0;32mThe unit nginx.service has entered the 'failed' state with result 'exit-code'.[0m[m
+[34;1H[K[7mlines 164-196/215 93%[27m[K[K [KESCESC[KOO[KAA[K[HM[0;38;5;245m░░[0m [0;32m[0m[m
+[34;1H[K[7mlines 163-195/215 93%[27m[K[K [KESCESC[KOO[KAA[K[HM[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m[m
+[34;1H[K[7mlines 162-194/215 93%[27m[K[K[?1l>]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# journalctl -xeu nginx.servicesystemctl start[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@tus[C[C[C[C[C[C[C[C[C[C[C[C[C[Cenable[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pyum install nginxvi app_install.ymlnginx[Khgnixyum remove nginx
+[?2004lDependencies resolved.
+==========================================================================================================================================
+ Package                              Architecture               Version                             Repository                      Size
+==========================================================================================================================================
+Removing:
+ [31mnginx                               (B[m x86_64                     1:1.22.1-2.el9                      @appstream                     152 k
+Removing unused dependencies:
+ [31mnginx-core                          (B[m x86_64                     1:1.22.1-2.el9                      @appstream                     1.6 M
+ [31mnginx-filesystem                    (B[m noarch                     1:1.22.1-2.el9                      @appstream                       0  
+
+Transaction Summary
+==========================================================================================================================================
+Remove  3 Packages
+
+Freed space: 1.8 M
+Is this ok [y/N]: y
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :  [===================================                                                                          ] 1/1  Preparing        :  [=======================================================================                                      ] 1/1  Preparing        :                                                                                                                  1/1 
+  Running scriptlet: nginx-1:1.22.1-2.el9.x86_64                                                                                      1/3 
+Removed "/etc/systemd/system/multi-user.target.wants/nginx.service".
+
+  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [                                                                                  ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [====                                                                              ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [=========                                                                         ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [=============                                                                     ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [==================                                                                ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [=======================                                                           ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [============================                                                      ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [=================================                                                 ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [======================================                                            ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [==========================================                                        ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [===============================================                                   ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [====================================================                              ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [=========================================================                         ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [==============================================================                    ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [===================================================================               ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [========================================================================          ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64 [=============================================================================     ] 1/3  Erasing          : nginx-1:1.22.1-2.el9.x86_64                                                                                      1/3 
+  Running scriptlet: nginx-1:1.22.1-2.el9.x86_64                                                                                      1/3 
+  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [                                                                             ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [==                                                                           ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [====                                                                         ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [======                                                                       ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [=========                                                                    ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [============                                                                 ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [==============                                                               ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [================                                                             ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [===================                                                          ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [======================                                                       ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [========================                                                     ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [==========================                                                   ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [=============================                                                ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [===============================                                              ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [=======================================                                      ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [=========================================                                    ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [============================================                                 ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [==============================================                               ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [=================================================                            ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [===================================================                          ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [=====================================================                        ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [========================================================                     ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [===========================================================                  ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [=============================================================                ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [===============================================================              ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [==================================================================           ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [=====================================================================        ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [=======================================================================      ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64 [=========================================================================    ] 2/3  Erasing          : nginx-core-1:1.22.1-2.el9.x86_64                                                                                 2/3 
+  Erasing          : nginx-filesystem-1:1.22.1-2.el9.noarch [                                                                       ] 3/3  Erasing          : nginx-filesystem-1:1.22.1-2.el9.noarch [=========                                                              ] 3/3  Erasing          : nginx-filesystem-1:1.22.1-2.el9.noarch [===================                                                    ] 3/3  Erasing          : nginx-filesystem-1:1.22.1-2.el9.noarch [=============================                                          ] 3/3  Erasing          : nginx-filesystem-1:1.22.1-2.el9.noarch [========================================                               ] 3/3  Erasing          : nginx-filesystem-1:1.22.1-2.el9.noarch [==================================================                     ] 3/3  Erasing          : nginx-filesystem-1:1.22.1-2.el9.noarch [============================================================           ] 3/3  Erasing          : nginx-filesystem-1:1.22.1-2.el9.noarch                                                                           3/3 
+  Running scriptlet: nginx-filesystem-1:1.22.1-2.el9.noarch                                                                           3/3 
+  Verifying        : nginx-1:1.22.1-2.el9.x86_64                                                                                      1/3 
+  Verifying        : nginx-core-1:1.22.1-2.el9.x86_64                                                                                 2/3 
+  Verifying        : nginx-filesystem-1:1.22.1-2.el9.noarch                                                                           3/3 
+
+Removed:
+  nginx-1:1.22.1-2.el9.x86_64             nginx-core-1:1.22.1-2.el9.x86_64             nginx-filesystem-1:1.22.1-2.el9.noarch            
+
+Complete!
+]0;root@mycentos-instance:/etc/ansible/playbooks[?2004h[root@mycentos-instance playbooks]# [?2004l
+exit
+
+Script done on 2024-02-14 08:29:10+00:00 [COMMAND_EXIT_CODE="0"]

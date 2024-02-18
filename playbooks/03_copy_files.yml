@@ -1,0 +1,12 @@
+---
+- name: Copying files to remote
+  hosts: all
+
+  tasks:
+  - name: Copy files #name me hum jo task kar rahe hai uska description dete hai
+    copy:
+      src: /root/myfile.txt
+      dest: /tmp/    # tmp folder me myfile ko copy karna hai    
+      owner: sumit   # kisi specific user ko file ka owner banana ho to
+      # mode: 0777     # Octal form me permission de sakte ho file ki
+      mode: ugo=rw   # sabki permission user group other ki permission rw ke equal kardo        

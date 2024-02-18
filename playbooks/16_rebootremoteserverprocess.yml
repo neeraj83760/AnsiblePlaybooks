@@ -1,0 +1,13 @@
+---
+- name: Reboot a process
+  hosts: all
+  
+
+  tasks:
+  - name: Start the Service
+    service:
+      name: nginx
+      # nginx naam ki service start honi chahiye islye "state: started"
+      state: started
+        
+

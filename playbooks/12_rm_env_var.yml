@@ -1,0 +1,15 @@
+---
+- name: Modify Cron
+  hosts: all
+
+    # absent remove kar dega name: VAR varible ko   
+
+  tasks:
+  - name: Remove Cron Job
+    cron:
+      name: VAR
+      env: yes
+      user: sumit
+      job: /tmp/script/text.sh
+      insertbefore: PATH
+      state: absent  

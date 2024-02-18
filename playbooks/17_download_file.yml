@@ -1,0 +1,14 @@
+---
+- name: Download files
+  hosts: all
+  
+  tasks:
+  - name: Download file
+    get_url:
+      url: https://dlcdn.apache.org/httpd/httpd-2.4.58.tar.bz2
+      dest: /tmp/script/
+    # owner: nick coz taaki nick user use downloaded file ko use kar payye  
+    #  owner: nick
+    #  group: users
+    #  mode: 0777  
+

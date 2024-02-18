@@ -1,0 +1,14 @@
+---
+- name: Modify Cron
+  hosts: all
+  
+    #insertbefore jo pehle ka env variable tha uske upar display karega new env var ko  
+
+  tasks:
+  - name: Remove Cron Job
+    cron:
+      name: VAR
+      env: yes
+      user: sumit
+      job: /tmp/script/text.sh
+      insertbefore: PATH  

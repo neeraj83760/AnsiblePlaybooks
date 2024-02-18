@@ -1,0 +1,20 @@
+---
+- name: Firewall changes
+  hosts: all
+    # become true sudo privileges honge tabhi ye play book execute ho payegi
+  become: true 
+
+  tasks:
+  - name: Enable a service firewalld 
+    firewalld:
+      port: 80/tcp
+      permanent: true
+      state: enabled
+
+    # koi bhi service firewall me enable karne ke baad firewall reload karna padta hai     
+  - name: Reload the firewalld
+    service:
+      name: firewalld
+      state: reloaded
+
+ # To run this yml file u need to run cmd ansible-playbook --ask-become-pass 19_sudopriv   #  ileged_playbook.yml , then u need to enter the password as well        

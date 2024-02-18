@@ -1,0 +1,14 @@
+---
+- name: Copying files to remote
+  hosts: all
+
+  tasks:
+  - name: Copy files #name me hum jo task kar rahe hai uska description dete hai
+    copy:
+      src: /root/myfile.txt
+      dest: /tmp/    # tmp folder me myfile ko copy karna hai    
+      owner: sumit   # kisi specific user ko file ka owner banana ho to
+      group: sumit
+      mode: ugo=rw   
+      backup: true   # ye myfile.txt ka backup bhi bana dega incase future me recover kare        
+

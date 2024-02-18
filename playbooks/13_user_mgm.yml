@@ -1,0 +1,16 @@
+---
+- name: User Mngm
+  hosts: all
+  
+  tasks:
+  - name: User Creation
+    user:
+      name: nick
+      comment: new user adding
+      shell: /bin/bash
+      group: Devlopers 
+      # to add user in multiple groups we use 'groups' keyword in playbook
+      # Aur agar user delete karna ho to just write 'state:absent'
+      # but agar user se related home dir n evrythng bhi delete karna ho to 'remove: yes'
+      state: absent
+      remove: yes     

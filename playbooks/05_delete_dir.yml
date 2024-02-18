@@ -1,0 +1,9 @@
+---
+- name: File Module
+  hosts: all
+
+  tasks:
+  - name: Deleting a Directory
+    file:
+     path: /tmp/myfolder
+     state: absent

@@ -1,0 +1,17 @@
+---
+- name: Firewall Changes 
+  hosts: all  
+  
+  tasks:
+  - name: Enable a service firewalld # service firewalld service ki list me bhi
+    #honi chahiye , nahi to port no and protocol dedo service ka. ex: nginx ka port no 
+    firewalld:
+      port: 80/tcp
+      permanent: true
+      state: enabled
+    
+    # koi bhi service firewall me enable karne ke baad firewall reload karna padta hai     
+  - name: Reload the firewalld
+    service: 
+      name: firewalld 
+      state: reloaded  

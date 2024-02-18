@@ -1,0 +1,13 @@
+---
+- name: Run a script
+  hosts: all
+
+  # --jo bhi text.sh ka output hai use test.log me rdirect kar do
+  # then use /tmp/script dir me test.log file save kar do 
+
+  tasks:
+  - name: Run Script
+    shell: ./text.sh >> test.log
+    args:
+      chdir: /tmp/script
+      creates: test.log  
