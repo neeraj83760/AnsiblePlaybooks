@@ -1,0 +1,22 @@
+   90  ansible-playbook --ask-become-pass 17_download_file.yml 
+   95  ansible-playbook --ask-become-passwd vi 20_Installfirewalld.yml
+   96  ansible-playbook --ask-become-pass vi 20_Installfirewalld.yml
+   97  ansible-playbook --ask-become-pass  20_Installfirewalld.yml
+   99  ansible-playbook --ask-become-pass  20_Installfirewalld.yml
+  110  ansible 13.232.98.191 -m copy -a "src=~/myfile.txt dest=/tmp/script" -b --ask-become-pass
+  114  ansible all -m service -a "name=firewalld state=reloaded" --ask-become-pass
+  115  history | grep --ask
+  116  history | grep ask
+  117  ansible all -m service -a "name=firewalld state=reloaded" -b --ask-become-pass
+  118  ansible all -m shell -a "~/loopiscript.sh" -b --ask-become-pass
+  119  ansible all -m shell -a "/home/ec2-user/loopiscript.sh" -b --ask-become-pass
+  120  ansible all -m shell -a "/ec2-user/loopiscript.sh" -b --ask-become-pass
+  121  ansible all -m shell -a "/home/neerajkumarghildiyal/loopiscript.sh" -b --ask-become-pass
+  122  ansible all -m shell -a "/loopiscript.sh" -b --ask-become-pass
+  123  ansible all -m shell -a "./loopiscript.sh" -b --ask-become-pass
+  124  ansible all -m shell -a "/tmp/script/test.sh" -b --ask-become-pass
+  125  history | grep ask
+  126  ansible all -m command -a "free -h" -b --ask-become-pass
+  127  ansible all -m command -a "df -h" -b --ask-become-pass
+  131  history | grep ask
+  133  history | grep ask > adhoc.txt

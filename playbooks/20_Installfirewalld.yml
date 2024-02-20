@@ -1,0 +1,17 @@
+---
+- name: Install and start firewalld service
+  hosts: all
+  become: yes  # Run tasks with elevated privileges (sudo)
+
+  tasks:
+    - name: Install firewalld package
+      yum:
+        name: firewalld
+        state: present  # Ensure the package is installed
+
+    - name: Start firewalld service
+      service:
+        name: firewalld
+        state: started  # Ensure the service is started
+        enabled: yes    # Start the service on boot
+

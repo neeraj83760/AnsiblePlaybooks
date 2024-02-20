@@ -1,7 +1,8 @@
 ---
 - name: Download files
   hosts: all
-  
+  become: true
+
   tasks:
   - name: Download file
     get_url:
