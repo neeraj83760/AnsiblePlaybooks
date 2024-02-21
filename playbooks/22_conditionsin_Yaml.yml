@@ -1,0 +1,22 @@
+---
+- name: Installing Httpd
+  hosts: all
+  become: true  
+  
+  tasks:
+  - name: Install httpd on Redhat
+    yum:
+      name: httpd
+      state: present
+    when: ansible_os_family == "RedHat"
+
+  - name: Install apache2 on Ubuntu
+    apt:
+     name: apache2
+     state: present
+    when: ansible_os_family == "Ubuntu"
+
+    # ansible_os_family ek variable hai jo ki server ke os ki type batata hai
+    # below wali cmd ka use karke hum ip pata kar sakete hai
+    # remote server ki saari info below mentioned command se mil jaayegi 
+    # ansible 13.233.91.23 -m setup 
