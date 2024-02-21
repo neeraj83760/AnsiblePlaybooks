@@ -1,15 +1,18 @@
 ---
 - name: Install and Start the service
-  hosts: all  
+  hosts: all
+  become: true
+  # varible declare karne ka ye fayeda hota hai ki hum ek jagah hi changes karna padtahai   vars: 
+    - app: nginx  
   
   tasks:
   - name: Installing nginx
     dnf:
-      name: nginx
+      name: "{{app}}"
       state: present
   - name: Starting the nginx service
     service:
-      name: nginx
+      name: "{{app}}"
       state: started
       enabled: true
-                       
+  
