@@ -2,15 +2,17 @@
 - name: Install and Start the service
   hosts: all
   become: true
-  # varible declare karne ka ye fayeda hota hai ki hum ek jagah hi changes karna padtahai   vars: 
-    - app: nginx  
+  # varible declare karne ka ye fayeda hota hai ki hum ek jagah hichanges karna padtahai
+  
+  vars: 
+  - app: httpd  
   
   tasks:
-  - name: Installing nginx
+  - name: Installing httpd
     dnf:
       name: "{{app}}"
       state: present
-  - name: Starting the nginx service
+  - name: Starting the httpd service
     service:
       name: "{{app}}"
       state: started
