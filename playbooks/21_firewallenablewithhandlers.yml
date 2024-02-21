@@ -1,0 +1,27 @@
+---
+- name: Firewall Changes
+  hosts: all
+  become: true  
+
+  tasks:
+  - name: Enable a service firewalld # service firewalld service ki list me bhi
+    #honi chahiye , nahi to port no and protocol dedo service ka. ex: nginx ka port no 
+    firewalld:
+      port: 80/tcp
+      permanent: true
+      state: disabled
+    notify:
+      - Reload the firewalld     
+
+    # ye playbook jitni baar bhi run karoge humesha reload the firewalld humesha
+    # changed status show karega jo ki kayede se nahi hona chahiye kyoki u have
+    # not made any changes in firewall service so there is no need to reload the firewall
+    # for that we need handlers in ansible. handler ko trigger karna padta hai
+    # hume task me notify karna hota hai handler execute kar do
+    # Humesha yaad rakhna handlers sabse end me hi exectue hote hai
+  
+  handlers:        
+    - name: Reload the firewalld
+      service:
+        name: firewalld
+        state: reloaded   
